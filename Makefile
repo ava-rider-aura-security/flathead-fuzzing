@@ -41,7 +41,9 @@ src/runtime/lib/gc.o src/runtime/lib/Function.o src/runtime/lib/Object.o \
 src/runtime/lib/Boolean.o src/runtime/lib/Number.o src/runtime/lib/Date.o \
 src/runtime/lib/Array.o
 
-OUT_FILE = bin/flat
+#Condtional out file
+OUT_FILE ?= bin/flat
+
 YACC_FILE = src/grammar.y
 LEX_FILE = src/lexer.l
 
