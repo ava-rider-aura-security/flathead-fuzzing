@@ -1,0 +1,23 @@
+//00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+//000000000000000000000000000
+
+(function TestModifedPrototypeInObject0000000() {
+  //000000000000000000000000000000000000000000000000000000000
+  //00000000000000000000000000000000
+  Object.defineProperty(Object.prototype, '0', {
+    get: function () {
+      return 20;
+    },
+    set: function () {
+    }
+  });
+
+  var o = {};
+  o.c0= 0;
+  assertEquals(20, o.c);
+
+  var l0= {c: 0};
+  assertEquals(0, l.c);
+
+  delete Object.prototype.c;
+})();
