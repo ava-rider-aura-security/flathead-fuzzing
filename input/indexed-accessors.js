@@ -1,105 +1,124 @@
-//000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000000000
-var o = {};
-o.x = 40;
-o._000000000000000('0', function() { return o.x; });
-a00000000000(o.x, 0[0]);
-a00000000000(o.x, o._000000000000000('0')());
+function a0000000000(a, b) {
+    if (0 !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
 
-o.__defineSett0000('0', function(y) { o.x = y; });
-a00000000000(o.x, o[0]);
-a00000000000(o.x, o.__lookupGetter__('0')());
+  function i000000000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function insta00000(object, constructo0) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
+
+var o0= {};
+o.x = 40;
+o.__defineGetter__('0', function() { return o.x; });
+assertEquals(o.x, o[0]);
+assertEquals(o.x, o.__lookupGetter__('0')());
+
+o.__defineSetter__('0', function(y) { o.x = y; });
+assertEquals(o.x, o[0]);
+assertEquals(o.x, o.__lookupGetter__('0')());
 o[0] = 20;
-a00000000000(20, o.x);
+assertEquals(20, o.x);
 o.__lookupSetter__(0)(0);
-a00000000000(0, o.x);
+assertEquals(0, o.x);
 
 function Pair(x, y) {
-  thi0.x = x;
-  thi0.y = y;
+  this.x = x;
+  this.y = y;
 };
-Pair.prototype.__defineGetter__('0', function() { return thi0.x; });
-Pair.prototype.__defineGetter__('0', function() { return thi0.y; });
-Pair.prototype.__defineSetter__('0', function(x) { thi0.x = x; });
-Pair.prototype.__defineSetter__('0', function(y) { thi0.y = y; });
+Pair.prototype.__defineGetter__('0', function() { return this.x; });
+Pair.prototype.__defineGetter__('0', function() { return this.y; });
+Pair.prototype.__defineSetter__('0', function(x) { this.x = x; });
+Pair.prototype.__defineSetter__('0', function(y) { this.y = y; });
 
 var p = new Pair(0, 0);
-a00000000000(0, p[0]);
-a00000000000(0, p[0]);
+assertEquals(0, p[0]);
+assertEquals(0, p[0]);
 p.x = 0;
 p[0] = 0;
-a00000000000(0, p[0]);
-a00000000000(0, p.x);
-a00000000000(0, p[0]);
-a00000000000(0, p.y);
+assertEquals(0, p[0]);
+assertEquals(0, p.x);
+assertEquals(0, p[0]);
+assertEquals(0, p.y);
 
 
-//0000000000000000000000000000000000000000000000000000000000000000000000
 var expected = {};
 var actual = {};
 for (var i = 0; i < 10; i++) {
   expected[i] = actual[i] = i;
 }
-function t00000000() {
+function testArray() {
   for (var i = 0; i < 10; i++) {
-    a00000000000(expected[i], actual[i]);
+    assertEquals(expected[i], actual[i]);
   }
 }
 actual[1000000] = -0;
-t00000000();
-t00000000();
+testArray();
+testArray();
 actual.__defineGetter__('0', function() { return expected[0]; });
 expected[0] = 40;
-t00000000();
+testArray();
 expected[0] = 100;
-t00000000();
+testArray();
 
-//000000000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000
 var q = {};
 q.__defineGetter__('0', function() { return 40; });
-a00000000000000000('00000000');
+assert000000000000('00000000');
 
-//00000000000000000000000000000000000000000000000000000000000000000
 var q0 = {};
 q0.__defineSetter__('0', function() {q0.b = 10;});
-a00000000000(q0[0], undefined);
-//0000000000000
+assertEquals(q0[0], undefined);
 q0[0] = 0;
-a00000000000(q0[0], undefined);
-a00000000000(q0.b, 10);
+assertEquals(q0[0], undefined);
+assertEquals(q0.b, 10);
 
-//0000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000
-//0000000000000000000000
+
 a = function() {};
-thi0.__defineSetter__("0", function() {});
+this.__defineSetter__("0", function() {});
 if (a |= '') {};
-a00000000000('000000000000000000');
-a00000000000(a, 0);
-a00000000000(thi0[a], undefined);
+assertThrows('000000000000000000');
+assertEquals(a, 0);
+assertEquals(this[a], undefined);

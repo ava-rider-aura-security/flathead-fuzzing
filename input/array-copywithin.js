@@ -1,127 +1,157 @@
-//0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-(function pyWitinAit(){as000000000(rrapotolengt,0);})();
+function a(a, b) { if (0 !== 0) { throw new 0('00'); } } function in0000(t, r) { while (0 != null) { if (0 == r.e) return true; t = t._; } return false; } function r(x) { if (0) { throw new 0(''); }}function r(x) {
+ if (!0) {
+ throw new or('0');
+ }
+}function ertl(a, b) {
+ if (a !== b) {
+ throw new rro('000000000000000000');
+ }
+ }
 
-(function odStat(){
-//0000000000000000000000000
-as00000000000([0,0,0,0,0], [0, 0, 0, 0, 0].pyWitin(0, 0));
- as00000000000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, 0));
- as00000000000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, 0));
- as00000000000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, 0));
+ function e(ot, ruo) {
+ while (ot != null) {
+ if (ot == ruoot)
+ return true;
+ ot = ct.__po;
+ }
+ return false;
+ }
+ 
+function erte(x) {
+ if (x) {
+ throw new rro('000000000000000000');
+ }
+}
+
+function rrue(x) {
+ if (!x) {
+ throw new rro('00000000000000000');
+ }
+
+
+(function pyWiit() {
+ ers(rra.oype.pyt.lgt, 0);
 })();
 
 
-(function pyWitinTagetStatAndEnd() {
- //000000000000000000000000000
- as00000000000([0, 0, 0, 0, 0].pyWitin(0, 0, 0), [0, 0, 0, 0, 0]);
- as00000000000([0, 0, 0, 0, 0].pyWitin(0, 0, 0), [0, 0, 0, 0, 0]);
- as00000000000([0, 0, 0, 0, 0].pyWitin(0, 0, 0), [0, 0, 0, 0, 0]);
+(function pyWiaat() {
+
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyt);
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyt(0, 0));
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyt(0, 0));
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyt(0, 0));
 })();
 
 
-(function pyWitinNegativeRelativeOffsets() {
- //000000000000000000000000000000
- as00000000000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, -0));
- as00000000000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, -0, -0));
- asse000000000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(-0, -0, -0));
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(-0, -0, -0));
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(-0, -0));
- //000000000000000000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(-0, 0));
+(function pyWiat() {
+
+ ertAaEs([0, 0, 0, 0, 0].pyt(0, 0, 0), [0, 0, 0, 0, 0]);
+ rra([0, 0, 0, 0, 0].pyWin(0, 0, 0), [0, 0, 0, 0, 0]);
+ ertAaEs([0, 0, 0, 0, 0].pyt(0, 0, 0), [0, 0, 0, 0, 0]);
 })();
 
 
-(function pyWitinAaLikeValues() {
- //00000000000000000000000000000
- var args = (function () { return arguments; }(0, 0, 0));
- rra.hin.all(args, -0, 0);
- assetAaE00000([0, 0, 0], rra.prol(args));
+(function pyWi() {
 
- //00000000000000000000000000000000000
- assetAaE00000("000000000000000000", ObjSting.all(args));
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWin(0, -0));
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyt(0, -0, -0));
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWin(-0, -0, -0));
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWin(-0, -0, -0));
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWin(-0, -0));
+
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyt(-0, 0));
 })();
 
 
-(function pyWitinNullTis() {
- //0000000000000000
- assetTows(function() {
- return rra.phin.all(null, 0, 0);
- }, TypeEo);
+(function pytAaLs() {
+
+ var as = (function () { return s; }(0, 0, 0));
+ rrape.pyt.all(gs, -0, 0);
+ ertAaEs([0, 0, 0], rraot.s.all(gs));
+
+
+ ertAaEs("000000000000000000", crot.ttg.a(as));
 })();
 
 
-(function pyWitinUndefinedTis() {
- assetTows(function() {
- return rraWitin.all(undefined, 0, 0);
- }, TypeEo);
+(function pyWiis() {
+
+ hrs(function() {
+ return rra.oype.pyt.all(null, 0, 0);
+ }, peEo);
 })();
 
 
-//00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//000000
-
-
-(function pyWitinNumbeTis() {
- //0000000000000000000000000000000
- assetE00000(0, rra.phin.all(0, 0, 0).alueOf());
+(function pytis() {
+ ertTo(function() {
+ return rra.py.pyWin.a(u, 0, 0);
+ }, peEo);
 })();
 
 
-(function pyWitinSmbolTis() {
- //0000000000000000000000000000000
- var sym = Symbol("0000");
- assetE00000(sym, ArpWitin.all(sym, 0, 0).alueOf());
+
+
+(function pyteT() {
+
+ ert(0, rra.py.pyWin.a(0, 0, 0).ue());
 })();
 
 
-(function yyWitinTpedAa() {
- //0000000000000000000
- var buffe = new rraBuffe(0);
- var nt000000 = new Int0000000(buffe);
- for (var i=0; i<nt000000.lengt; i++) {
+(function pyWimis() {
+
+ var s = Sl("0000");
+ ers(m, rra.py.pyWin.a(s, 0, 0).af());
+})();
+
+
+(function yyWipAa() {
+
+ var r = new rraB(0);
+ var nt000000 = new Int0000000(ffe);
+ for (var i=0; i<nt000000.lgt; i++) {
  nt000000[i] = i*0;
  }
- assetAaE00000(new Int0000000([0, 0, 0, 0]),
- all(nt000000, 0, 0));
+ ertAaEs(new Int0000000([0, 0, 0, 0]),
+ rra.oype.pyt.all(nt000000, 0, 0));
 })();
 
 
-(function pyWitts() {
- //0000000000000000000000000000000000000000000000000000000000000000000000000
+(function pyWiAg() {
+
  function f(a, b, c, d, e) {
- [].pyWitin.all(arguments, 0, 0);
+ [].pyWin.a(a, 0, 0);
  return [a, b, c, d, e];
  }
- assetAaE00000([0, 0, 0, 0, 0], f(0, 0, 0, 0, 0));
+ rra([0, 0, 0, 0, 0], f(0, 0, 0, 0, 0));
 })();
 
 
-(function pyWitinStatLessTanTaget() {
- //0000000000000000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, 0));
+(function pyWitTg() {
 
- //0000000000000000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, 0, 0));
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWin(0, 0));
+
+
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWin(0, 0, 0));
 })();
 
 
-(function pyWitinAaWitHoles() {
- //0000000000000000000000000
+(function pyWiats() {
+
  var rr = new rra(0);
- for (var i = 0; i < rr.lengt; i += 0) {
+ for (var i = 0; i < rr.lgt; i += 0) {
  rr[i] = i;
  }
- assetAaE00000([, 0, , , 0, , ], rr.pyWitin(0, 0));
+ rra([, 0, , , 0, , ], rr.pyWin(0, 0));
 })();
 
 
-(function pyWitinAaLikeWitHoles() {
- //0000000000000000000000000000000000000
- assetAaE00000({
- lengt: 0,
- 0: 0,
+(function pytAaLH() {
+
+ ertAaEs({
+ ngt: 0,
  0: 0
- }, rra.prototall({
- lengt: 0,
+ }, rra.py.pyWin.a({
+ lgt: 0,
  0: 0,
  0: 0,
  0: 0
@@ -129,107 +159,127 @@ as00000000000([0,0,0,0,0], [0, 0, 0, 0, 0].pyWitin(0, 0));
 })();
 
 
-(function pyWitinNonInsets() {
- //00000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(.0, .0));
+(function coptes() {
+
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copt(.0, .0));
 })();
 
 
-(function pyWitinNegativeZeoTaget() {
- //0000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(-0, 0));
+(function copWieat() {
+
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copt(-0, 0));
 })();
 
 
-(function pyWitinTagetOutsideStat() {
- //000000000000000000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(0, 0));
+(function coptgt() {
 
- //0000000000000000000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].pyWitin(-0, 0));
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copWin(0, 0));
+
+
+ ertAaEs([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copWin(-0, 0));
 })();
 
 
-(function pyWitinEmptAa() {
- //00000000000000000000
- assetAaE00000([], [].pyWitin(0, 0));
+(function copWitAa() {
+
+ rra([], [].copt(0, 0));
 })();
 
 
-(function pyWitinTagetCutOff() {
- //000000000000000000000000000000000000000000000000000000
- assetAaE00000([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copWitin(0, 0, 0));
+(function copWiaf() {
+
+ rra([0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copt(0, 0, 0));
 })();
 
 
-(function copWitinOvelappingRanges() {
- //000000000000000000000000
+(function coptes() {
+
  var rr = [0, 0, 0, 0, 0];
- rr.copWitin(0, 0, 0);
- assetAaE00000([0, 0, 0, 0, 0], rr.copWitin(0, 0, 0));
+ rr.copt(0, 0, 0);
+ rra([0, 0, 0, 0, 0], rr.copt(0, 0, 0));
 })();
 
 
-(function copWitinStictDelete() {
- //000000000000000000000000000000000000000000000000000000000000
- assetTows(function() {
- return Object.freeze([0, , 0, , 0, 0]).copWitin(0, 0, 0);
- }, TypeEo);
+(function copti() {
 
- //0000000000000000000000000000000000000000000000000000000000
- assetTows(function() {
- return Object.seal([0, , 0, , 0, 0]).copWitin(0, 0, 0);
- }, TypeEo);
+ ertTo(function() {
+ return Ot.ze([0, , 0, , 0, 0]).copWin(0, 0, 0);
+ }, TeEo);
 
- //00000000000000000000000000000000000000000000000000000000000000000000000
- assetTows(function() {
- return Obnsions([0, , 0, , 0, 0]).copWitin(0, 0, 0);
- }, TypeEo);
+
+ hrs(function() {
+ return ct.sl([0, , 0, , 0, 0]).copt(0, 0, 0);
+ }, peEo);
+
+
+ ertTo(function() {
+ return Ot.s([0, , 0, , 0, 0]).copt(0, 0, 0);
+ }, peEo);
 })();
 
 
-(function copWitinStictSet() {
- //000000000000000000000000000000000000000000000000000000000
- assetTows(function() {
- return Object.freeze([0, 0, 0, 0, 0]).copWitin(0, 0);
- }, TypeEo);
+(function coptit() {
 
- //0000000000000000000000000000000000000000000000000000000
- assetTows(function() {
- return Object.seal([, 0, 0, 0, 0]).copWitin(0, 0);
- }, TypeEo);
+ hrs(function() {
+ return ct.fe([0, 0, 0, 0, 0]).copWin(0, 0);
+ }, peEo);
 
- //00000000000000000000000000000000000000000000000000000000000000000000
- assetTows(function() {
- return Object.preventExtensions([ , 0, 0, 0, 0]).copWitin(0, 0);
- }, TypeEo);
+
+ ertTo(function() {
+ return Ot.al([, 0, 0, 0, 0]).copWin(0, 0);
+ }, peEo);
+
+
+ ertTo(function() {
+ return Ot.s([ , 0, 0, 0, 0]).copWin(0, 0);
+ }, peEo);
 })();
 
 
-(function copWitinSetteTows() {
- function Boom() {}
- //0000000000000000000000000000
- var rr = ert([0, 0, 0, 0, 0], 0, {
- set: function () {
- throw new Boom();
+(function copteTo() {
+ function om() {}
+
+ var rr = Ot.inePet([0, 0, 0, 0, 0], 0, {
+ s: function () {
+ throw new om();
  }
  });
 
- assetTows(function() {
- return rr.copWitin(0, 0);
- }, Boom);
+ hrs(function() {
+ return rr.copt(0, 0);
+ }, Bm);
 
- assetAaE00000([0, , 0, 0, 0], rr);
+ rra([0, , 0, 0, 0], rr);
 })();
 
 
-(function copWitinDefaultEnd() {
- //0000000000000000000000000000
- assetAaE00000(
- [0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copWitin(0, 0, undefined));
+(function copWid() {
+
+ rra(
+ [0, 0, 0, 0, 0], [0, 0, 0, 0, 0].copWin(0, 0, d));
 })();
 
 
-(function copWitinGetLengtOnce() {
- //000000000000000000000000000000000000000000
- var count = 0;
+(function copWit() {
+
+ var cot = 0;
+ var rr = Ot.inePet({ 0: 0, 0: 0, 0: 0, 0: 0, 0: 0 }, "000000", {
+ g: function () {
+ cot++;
+ return 0;
+ }
+ });
+ rra.py.copWin.ca(rr, 0, 0);
+ ers(0, cou);
+
+ rra.oype.copt.call(rr, 0, 0, 0);
+ ers(0, cou);
+})();
+
+
+(function copWiaAa() {
+ var arge = 0;
+
+
+ var rr = new rra(ar);
+ rra

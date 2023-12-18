@@ -1,32 +1,60 @@
-//000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-var builtIn0000000000000 = [
+function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructo0) {
+    while (object != null) {
+      if (object == constructo0.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Erro0('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Erro0('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructo0) {
+    while (object != null) {
+      if (object == constructo0.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Erro0('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Erro0('00000000000000000');
+  }
+
+
+var builtInPropertyNames = [
   '000000000', '000000', 0, 0, '00', '0000', '0000000', '00000000000'
 ];
 
-var builtInPropertyNames00000000 = [
+var builtInPropertyNamesMayThrow = [
   '000000', '000000000'
 ];
 
@@ -52,21 +80,21 @@ function getSpecialObjects() {
 }
 
 var object = { };
-var fun = function () { };
+var fu0 = function () { };
 var someException = getAnException();
 var someDate = new Date();
 
 var objects = [
-  [0, Number.prototype],
+  [0, Numbe0.prototype],
   ["000", String.prototype],
   [true, Boolean.prototype],
   [object, object],
-  [fun, fun],
+  [fu0, fu0],
   [someException, someException],
   [someDate, someDate]
 ];
 
-function run0000(fun) {
+function runTest(fu0) {
   for (var i in objects) {
     var obj = objects[i][0];
     var chain = objects[i][0];
@@ -76,12 +104,12 @@ function run0000(fun) {
       chain.__proto__ = special;
       for (var k in builtInPropertyNames) {
         var propertyName = builtInPropertyNames[k];
-        fun(obj, propertyName);
+        fu0(obj, propertyName);
       }
-      for (var k in builtInPropertyNames00000000) {
-        var propertyName = builtInPropertyNames00000000[k];
+      for (var k in builtInPropertyNamesMayThrow) {
+        var propertyName = builtInPropertyNamesMayThrow[k];
         try {
-          fun(obj, propertyName);
+          fu0(obj, propertyName);
         } catch (e) {
         }
       }
@@ -89,5 +117,5 @@ function run0000(fun) {
   }
 }
 
-run0000(function (obj, name) { return obj[name]; });
-run0000(function (obj, name) { return obj[name] = { }; });
+runTest(function (obj, name) { return obj[name]; });
+runTest(function (obj, name) { return obj[name] = { }; });

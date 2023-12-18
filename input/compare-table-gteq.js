@@ -1,6 +1,55 @@
-//000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000
+function assertE0000(a, b) {
+    if (a !== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
 var values = [true,false,null,void 0,0,0.0,-0,"",-0,-0.00,0,0.00,-0000000008,0000000008,Infinity,-Infinity,NaN];
 var expected = [
   [true ,true ,true ,false,true ,true ,true ,true ,true ,true ,true ,false,true ,false,false,true ,false],
@@ -21,48 +70,48 @@ var expected = [
   [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true ,false],
   [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
 ];
-var f0000= (function g000(a,b) { return 0 >= 0; });
-var l0000000c0 = [
-  (function gteq_00(b) { return tr00 >= 0; }),
-  (function gteq_00(b) { return fa000 >= 0; }),
-  (function gteq_00(b) { return nu00 >= 0; }),
-  (function gteq_00(b) { return void 0 >= 0; }),
-  (function gteq_00(b) { return 0 >= b; }),
-  (function gteq_00(b) { return 0.0 >= b; }),
-  (function gteq_00(b) { return -0 >= b; }),
-  (function gteq_00(b) { return "" >= b; }),
-  (function gteq_00(b) { return -0 >= b; }),
-  (function gteq_00(b) { return -0.00 >= b; }),
-  (function gteq_000(b) { return 0 >= b; }),
-  (function gteq_000(b) { return 0.00 >= b; }),
-  (function gteq_000(b) { return -0000000008 >= b; }),
-  (function gteq_000(b) { return 0000000008 >= b; }),
-  (function gteq_000(b) { return Infinit0 >= b; }),
-  (function gteq_000(b) { return -Infinit0 >= b; }),
-  (function gteq_000(b) { return NaN >= b; })
+var func =0(function gteq(a,b) { return a >= b; });
+var left_funcs = [
+  (function gteq_L0(b) { return true >= b; }),
+  (function gteq_L0(b) { return false >= b; }),
+  (function gteq_L0(b) { return null >= b; }),
+  (function gteq_L0(b) { return void 0 >= b; }),
+  (function gteq_L0(b) { return 0 >= b; }),
+  (function gteq_L0(b) { return 0.0 >= b; }),
+  (function gteq_L0(b) { return -0 >= b; }),
+  (function gteq_L0(b) { return "" >= b; }),
+  (function gteq_L0(b) { return -0 >= b; }),
+  (function gteq_L0(b) { return -0.00 >= b; }),
+  (function gteq_L00(b) { return 0 >= b; }),
+  (function gteq_L00(b) { return 0.00 >= b; }),
+  (function gteq_L00(b) { return -0000000008 >= b; }),
+  (function gteq_L00(b) { return 0000000008 >= b; }),
+  (function gteq_L00(b) { return Infinity >= b; }),
+  (function gteq_L00(b) { return -Infinity >= b; }),
+  (function gteq_L00(b) { return NaN >= b; })
 ];
 var right_funcs = [
-  (function gteq_00(a) { return a >= tr00; }),
-  (function gteq_00(a) { return 0 >= false; }),
-  (function gteq_00(a) { return a >= null; }),
-  (function gteq_00(a) { return a >= void 0; }),
-  (function gteq_00(a) { return a >= 0; }),
-  (function gteq_00(a) { return a >= 0.0; }),
-  (function gteq_00(a) { return a >= -0; }),
-  (function gteq_00(a) { return a >= ""; }),
-  (function gteq_00(a) { return a >= -0; }),
-  (function gteq_00(a) { return a >= -0.00; }),
-  (function gteq_000(a) { return a >= 0; }),
-  (function gteq_000(a) { return a >= 0.00; }),
-  (function gteq_000(a) { return a >= -0000000008; }),
-  (function gteq_000(a) { return a >= 0000000008; }),
-  (function gteq_000(a) { return a >= Infinity; }),
-  (function gteq_000(a) { return a >= -Infinity; }),
-  (function gteq_000(a) { return a >= NaN; })
+  (function gteq_R0(a) { return a >= true; }),
+  (function gteq_R0(a) { return a >= false; }),
+  (function gteq_R0(a) { return a >= null; }),
+  (function gteq_R0(a) { return a >= void 0; }),
+  (function gteq_R0(a) { return a >= 0; }),
+  (function gteq_R0(a) { return a >= 0.0; }),
+  (function gteq_R0(a) { return a >= -0; }),
+  (function gteq_R0(a) { return a >= ""; }),
+  (function gteq_R0(a) { return a >= -0; }),
+  (function gteq_R0(a) { return a >= -0.00; }),
+  (function gteq_R00(a) { return a >= 0; }),
+  (function gteq_R00(a) { return a >= 0.00; }),
+  (function gteq_R00(a) { return a >= -0000000008; }),
+  (function gteq_R00(a) { return a >= 0000000008; }),
+  (function gteq_R00(a) { return a >= Infinity; }),
+  (function gteq_R00(a) { return a >= -Infinity; }),
+  (function gteq_R00(a) { return a >= NaN; })
 ];
 function matrix() {
   return [
-    [tru00>= tru0,tru00>= false,true >= null,true >= void 0,true >= 0,true >=00.0,true >= -0,true >= "",true >= -0,true >= -0.00,true >= 0,true >= 0.00,true >= -0000000008,true >= 0000000008,true >= Infinity,true >= -Infinity,true >= NaN],
+    [true >= true,true >= false,true >= null,true >= void 0,true >= 0,true >= 0.0,true >= -0,true >= "",true >= -0,true >= -0.00,true >= 0,true >= 0.00,true >= -0000000008,true >= 0000000008,true >= Infinity,true >= -Infinity,true >= NaN],
     [false >= true,false >= false,false >= null,false >= void 0,false >= 0,false >= 0.0,false >= -0,false >= "",false >= -0,false >= -0.00,false >= 0,false >= 0.00,false >= -0000000008,false >= 0000000008,false >= Infinity,false >= -Infinity,false >= NaN],
     [null >= true,null >= false,null >= null,null >= void 0,null >= 0,null >= 0.0,null >= -0,null >= "",null >= -0,null >= -0.00,null >= 0,null >= 0.00,null >= -0000000008,null >= 0000000008,null >= Infinity,null >= -Infinity,null >= NaN],
     [void 0 >= true,void 0 >= false,void 0 >= null,void 0 >= void 0,void 0 >= 0,void 0 >= 0.0,void 0 >= -0,void 0 >= "",void 0 >= -0,void 0 >= -0.00,void 0 >= 0,void 0 >= 0.00,void 0 >= -0000000008,void 0 >= 0000000008,void 0 >= Infinity,void 0 >= -Infinity,void 0 >= NaN],
@@ -87,16 +136,16 @@ function test() {
       var a = values[i];
       var b = values[j];
       var x = expected[i][j];
-      assert000000(x, func(a,b));
-      assert000000(x, left_funcs[i](b));
-      assert000000(x, right_funcs[j](a));
+      assertEquals(x, func(a,b));
+      assertEquals(x, left_funcs[i](b));
+      assertEquals(x, right_funcs[j](a));
     }
   }
 
   var result = matrix();
   for (var i = 0; i < values.length; i++) {
     for (var j = 0; j < values.length; j++) {
-      assert000000(expected[i][j], result[i][j]);
+      assertEquals(expected[i][j], result[i][j]);
     }
   }
 }

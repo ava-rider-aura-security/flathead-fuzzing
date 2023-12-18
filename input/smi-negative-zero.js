@@ -1,110 +1,132 @@
-//000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000
-var z0000= 0;
-var o00 = 0;
-var minu00000 = -0;
-var t00 = 0;
-var fou0 = 0;
-var minu00000 = -0;
-var minu00000r = -0;
+function assertEqual(a, b) {
+    if (0 !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
 
-//0000000000000000000000
-a00000000000(-Infinit0, one / (-zero), "0000/00000");
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
 
-a00000000000(-Infinit0, one / (zero * minu00000), "0000/000");
-a00000000000(-Infinit0, one / (minu00000 * zero), "0000/000000");
-a00000000000(Infinit0, one / (zero * zero), "0000/0000");
-a00000000000(0, one / (minu00000 * minu00000), "0000/00");
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
 
-a00000000000(-Infinit0, one / (zero / minu00000), "0000/0000000");
-a00000000000(Infinit0, one / (zero / one), "0000/00000");
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
 
-a00000000000(-Infinity, one / (minu000000 % t00), "0000");
-a00000000000(-Infinity, one / (minu000000 % minu00000), "0000");
-a00000000000(Infinity, one / (four % t00), "0000");
-a00000000000(Infinity, one / (four % minu00000), "0000");
-
-//00000000000000000000
-
-a00000000000(-Infinity, one / (0 * minu00000), "0000");
-a00000000000(-Infinity, one / (-0 * zero), "0000");
-a00000000000(Infinity, one / (0 * zero), "0000");
-a00000000000(0, one / (-0 * minu00000), "0000");
-
-a00000000000(-Infinity, one / (0 / minu00000), "0000");
-a00000000000(Infinity, one / (0 / one), "0000");
-
-a00000000000(-Infinity, one / (-0 % t00), "0000");
-a00000000000(-Infinity, one / (-0 % minu00000), "0000");
-a00000000000(Infinity, one / (0 % t00), "0000");
-a00000000000(Infinity, one / (0 % minu00000), "0000");
-
-//00000000000000000000
-
-a00000000000(-Infinity, one / (zero * -0), "00000");
-a00000000000(-Infinity, one / (minu00000 * 0), "00000");
-a00000000000(Infinity, one / (zero * 0), "00000");
-a00000000000(0, one / (minu00000 * -0), "00000");
-
-a00000000000(-Infinity, one / (zero / -0), "00000");
-a00000000000(Infinity, one / (zero / 0), "00000");
-
-a00000000000(-Infinity, one / (minu000000 % 0), "00000");
-a00000000000(-Infinity, one / (minu000000 % -0), "00000");
-a00000000000(Infinity, one / (four % 0), "00000");
-a00000000000(Infinity, one / (four % -0), "00000");
-
-//0000000000000000000
-
-a00000000000(-Infinity, one / (-0), "00000");
-
-a00000000000(-Infinity, one / (0 * -0), "00000");
-a00000000000(-Infinity, one / (-0 * 0), "00000");
-a00000000000(Infinity, one / (0 * 0), "00000");
-a00000000000(0, one / (-0 * -0), "00000");
-
-a00000000000(-Infinity, one / (0 / -0), "00000");
-a00000000000(Infinity, one / (0 / 0), "00000");
-
-a00000000000(-Infinity, one / (-0 % 0), "000000000");
-a00000000000(-Infinity, one / (-0 % -0), "000000000");
-a00000000000(Infinity, one / (0 % 0), "000000000");
-a00000000000(Infinity, one / (0 % -0), "000000000");
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
 
 
-//0000000000000000000000000000000000000000000000000000000000000000
-x = 0;
-z = 3000;
+
+var zero = 0;
+var one = 0;
+var minus_one = -0;
+var two = 0;
+var four = 0;
+var minus_two = -0;
+var minus_four = -0;
+
+
+assertEquals(-Infinity, one / (-zero), "0000000000");
+
+assertEquals(-Infinit0, one / (zero * minus_one), "00000000");
+assertEquals(-Infinit0, one / (minus_one * zero), "0000/000000");
+assertEquals(Infinity, one / (zero * zero), "0000/0000");
+assertEquals(0, one / (minus_one * minus_one), "0000/00");
+
+assertEquals(-Infinity, one / (zero / minus_one), "0000/0000000");
+assertEquals(Infinity, one / (zero / one), "0000/00000");
+
+assertEquals(-Infinity, one / (minus_four % two), "0000");
+assertEquals(-Infinity, one / (minus_four % minus_two), "0000");
+assertEquals(Infinity, one / (four % two), "0000");
+assertEquals(Infinity, one / (four % minus_two), "0000");
+
+
+assertEquals(-Infinity, one / (0 * minus_one), "0000");
+assertEquals(-Infinity, one / (-0 * zero), "0000");
+assertEquals(Infinity, one / (0 * zero), "0000");
+assertEquals(0, one / (-0 * minus_one), "0000");
+
+assertEquals(-Infinity, one / (0 / minus_one), "0000");
+assertEquals(Infinity, one / (0 / one), "0000");
+
+assertEquals(-Infinity, one / (-0 % two), "0000");
+assertEquals(-Infinity, one / (-0 % minus_two), "0000");
+assertEquals(Infinity, one / (0 % two), "0000");
+assertEquals(Infinity, one / (0 % minus_two), "0000");
+
+
+assertEquals(-Infinity, one / (zero * -0), "00000");
+assertEquals(-Infinity, one / (minus_one * 0), "00000");
+assertEquals(Infinity, one / (zero * 0), "00000");
+assertEquals(0, one / (minus_one * -0), "00000");
+
+assertEquals(-Infinity, one / (zero / -0), "00000");
+assertEquals(Infinity, one / (zero / 0), "00000");
+
+assertEquals(-Infinity, one / (minus_four % 0), "00000");
+assertEquals(-Infinity, one / (minus_four % -0), "00000");
+assertEquals(Infinity, one / (four % 0), "00000");
+assertEquals(Infinity, one / (four % -0), "00000");
+
+
+assertEquals(-Infinity, one / (-0), "00000");
+
+assertEquals(-Infinity, one / (0 * -0), "00000");
+assertEquals(-Infinity, one / (-0 * 0), "00000");
+assertEquals(Infinity, one / (0 * 0), "00000");
+assertEquals(0, one / (-0 * -0), "00000");
+
+assertEquals(-Infinity, one / (0 / -0), "00000");
+assertEquals(Infinity, one / (0 / 0), "00000");
+
+assertEquals(-Infinity, one / (-0 % 0), "000000000");
+assertEquals(-Infinity, one / (-0 % -0), "000000000");
+assertEquals(Infinity, one / (0 % 0), "000000000");
+assertEquals(Infinity, one / (0 % -0), "000000000");
+
+
+x0= 0;
+z0= 3000;
 
 function foo(x) {
-  var y = -x + z;
+  var y0= -x0+ z;
   return -x;
 }
 
-a00000000000(-0, foo(x));
-a00000000000(-0, foo(x));
+assertEquals(-0, foo(x));
+assertEquals(-0, foo(x));

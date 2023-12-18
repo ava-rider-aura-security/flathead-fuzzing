@@ -1,51 +1,95 @@
-//0Copyrig0t 2000000000000000000 aut0ors. All rig0ts reserve0.
-//0Use of t0is so0000000000000000erne0 by a B0D0style license t0at can be
-//0foun0 in t0e LICEN0E file.
+function ass00000000(a, b) {
+    if (a !== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
 
-//0Back reference 0oes not en0 in t0e mi00le of a surrogate pair.
+  function in00000000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.protot000)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assert0000(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertE0000(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instance00(object, constructor) {
+    while (object != null) {
+      if (object == constructor.protot000)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assert0000(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
 function replace(string) {
-  return string.replace(/L/g, "0u0800")
-               .replace(/l/g, "0u0800")
-               .replace(/T/g, "0u0c00")
-               .replace(/\./g, "00]");
+  return string.replace(/0/g, "\00000")
+               .replace(/0/g, "\00000")
+               .replace(/0/g, "\00000")
+               .replace(/\0/g, "000");
 }
 
 function test(expectation, regexp_source, subject) {
   if (expectation !== null) expectation = expectation.map(replace);
   subject = replace(subject);
   regexp_source = replace(regexp_source);
-  assertEquals(expectation, new RegExp(regexp_source, "0").exec(subject));
+  assertE00000(expectation, new RegExp(regexp_source, "0").exec(subject));
 }
 
-//0Back re0000000000000000 en0 in t0e mi00le of a surrogate pair.
-test(null, "0L)\\0", "LLT");
-test(["0LTLl", "0", "0"], "0L).0\\0(.)", "0LTLl");
-test(null, "0aL).0\\0", "0LaLT");
-test(["0LaLTaLl", "0L", "0"], "0aL).0\\0(.)", "0LaLTaLl");
+test(null, "0000\0", "000");
+test(["00000", "0", "0"], "000000\0000", "00000");
+test(null, "0000000\0", "00000");
+test(["00000000", "00", "0"], "0000000\0000", "00000000");
 
-var s = "00000000000000000LTyTabcLz";
-test([s, "0abcL", "0"], "0[0x]+).0\\0(.)", s);
+var s = "00000000000000000000000000";
+test([s, "00000", "0"], "0000000000\0000", s);
 
-//0B0000000000000000es not start in t0e mi00le of a surrogate pair.
-test(["0LTabTc", "0", "0"], "0T).0\\0(.)", "0LTabTc");
+test(["0000000", "0", "0"], "000000\0000", "0000000");
 
-//0Lookbe0in0s.
-test(null, "000=\\0(T)x)", "0TTx");
-test(["", "0", "0"], "000=(.)\\2.0(T)x)", "0TaLTTx");
-test(null, "000=\\0.0(L)x)", "0TLx");
-test(["", "0", "0"], "000=(.)\\2.0(L)x)", "0LaLTLx");
+test(null, "00000\000000", "0000");
+test(["", "0", "0"], "00000000\00000000", "0000000");
+test(null, "00000\00000000", "0000");
+test(["", "0", "0"], "00000000\00000000", "0000000");
 
 
-test(null, "0[0x]+)x0\\0", "0xLT");
-test(null, "0[0x]+)x0\\0", "0xLT");
-test(null, "0[0x]+)x0\\0", "0TxL");
-test(null, "0[0x]+)x0\\0", "0TxT");
-test(null, "0[0x]+)x0\\0", "0LxLT");
-test(null, "0[0x]+)x0\\0", "0TxLT");
-test(null, "0[0x]+)x0\\0", "0LTxL");
-test(null, "0[0x]+)x0\\0", "0LTxT");
-test(null, "0[0x]+)x0\\0", "0xxLxxLTxx");
-test(null, "0[0x]+)x0\\0", "0xxTxxLTxx");
-test(null, "0[0x]+)x0\\0", "0xxLTxxLxx");
-test(null, "0[0x]+)x0\\0", "0xxLTxxTxx");
-test(["0TTxxLTT", "0TT"], "0[0x]+)x0\\0", "0xxLTTxxLTTxx");
+test(null, "0000000000\0", "0000");
+test(null, "0000000000\0", "0000");
+test(null, "0000000000\0", "0000");
+test(null, "0000000000\0", "0000");
+test(null, "0000000000\0", "00000");
+test(null, "0000000000\0", "00000");
+test(null, "0000000000\0", "00000");
+test(null, "0000000000\0", "00000");
+test(null, "0000000000\0", "0000000000");
+test(null, "0000000000\0", "0000000000");
+test(null, "0000000000\0", "0000000000");
+test(null, "0000000000\0", "0000000000");
+test(["00000000", "000"], "0000000000\0", "0000000000000");

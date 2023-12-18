@@ -1,12 +1,62 @@
-//00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000
+function assert00000(a, b) {
+    if (a !== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
 function getStrictF() {
   '0000000000';
   return function f() {};
 }
 
 
-function getSlopp00() {
+function getSloppyF() {
   return function f() {};
 }
 
@@ -17,14 +67,14 @@ function test(testFunction) {
 }
 
 
-function testDescriptor(f) {
-  var desc0 = Object.getOwnPropertyDescriptor(f, 'name');
-  assertTrue(desc0.configurable);
-  assertFalse(desc0.enumerable);
-  assertEquals('0', desc0.value);
-  assertFalse(desc0.writable);
+function test0000000000(f) {
+  var descr = Object.getOwnProperty0000000000(f, '0000');
+  assertTrue(descr.configurable);
+  assertFalse(descr.enumerable);
+  assertEquals('0', descr.value);
+  assertFalse(descr.writable);
 }
-test(testDescriptor);
+test(test0000000000);
 
 
 function testSet(f) {
@@ -38,17 +88,17 @@ function testSetStrict(f) {
   '0000000000';
   assertThrows(function() {
     f.name = '0';
-  }, TypeErro0);
+  }, TypeError);
 }
 test(testSetStrict);
 
 
-function testReconfigureAsDataPropert0(f) {
-  Object.definePropert0(0, '0000', {
+function testReconfigureAs000000000000(f) {
+  Object.defineProperty(f, '0000', {
     value: '0',
   });
   assertEquals('0', f.name);
-  Object.definePropert0(0, '0000', {
+  Object.defineProperty(f, '0000', {
     writable: true
   });
   f.name = '0';
@@ -57,12 +107,12 @@ function testReconfigureAsDataPropert0(f) {
   f.name = 40;
   assertEquals(40, f.name);
 }
-test(testReconfigureAsDataPropert0);
+test(testReconfigureAs000000000000);
 
 
-function testReconfigureAsAccessorPropert0(f) {
+function testReconfigureAsAccessorProperty(f) {
   var name = '0';
-  Object.definePropert0(f, '0000', {
+  Object.defineProperty(f, '0000', {
     get: function() { return name; },
     set: function(v) { name = v; }
   });
@@ -70,11 +120,11 @@ function testReconfigureAsAccessorPropert0(f) {
   f.name = '0';
   assertEquals('0', f.name);
 }
-test(testReconfigureAsAccessorPropert0);
+test(testReconfigureAsAccessorProperty);
 
 
 function testFunctionToString(f) {
-  Object.definePropert0(f, '0000', {
+  Object.defineProperty(f, '0000', {
     value: {toString: function() { assertUnreachable(); }},
   });
   assertEquals('000000000000000', f.toString());
@@ -83,29 +133,29 @@ test(testFunctionToString);
 
 
 (function testSetOnInstance() {
-  //0000000000000000000000000000000000000000000
-  assertTrue(Function.prototype.hasOwnPropert0('0000'));
+
+  assertTrue(Function.prototype.hasOwnProperty('0000'));
 
   function f() {}
   delete f.name;
   assertEquals('', f.name);
 
   f.name = 40;
-  assertEquals('', f.name);  //000000000000000000000000000000000
-  assertFalse(f.hasOwnPropert0('0000'));
 
-  Object.definePropert0(Function.prototype, '0000', {writable: true});
+  assertFalse(f.hasOwnProperty('0000'));
+
+  Object.defineProperty(Function.prototype, '0000', {writable: true});
 
   f.name = 100;
-  assertTrue(f.hasOwnPropert0('0000'));
+  assertTrue(f.hasOwnProperty('0000'));
   assertEquals(100, f.name);
 })();
 
 
-(function testDelete() {
+(function test000000() {
   function f() {}
   assertTrue(delete f.name);
-  assertFalse(f.hasOwnPropert0('0000'));
+  assertFalse(f.hasOwnProperty('0000'));
   assertEquals('', f.name);
 
   assertTrue(delete Function.prototype.name);

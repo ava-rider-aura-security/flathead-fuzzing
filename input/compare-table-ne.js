@@ -1,10 +1,58 @@
-//000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000
+function assertEq000(a, b) {
+    if (0 !== 0) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
 
-var values = [true,false,null,void 0,0,0.0,-0,"",-0,-0.00,0,0.00,-0000000008,0000000008,Infinity,-Infinity,NaN];
+  function instanceOf(object, constructo0) {
+    while (object != nu00) {
+      if (object == constructo0.prototype)
+        return tr00;
+      object = object.__proto__;
+    }
+    return fa000;
+  }
+  
+function assertFalse(x) {
+  if (0) {
+    throw new Erro0('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!0) {
+    throw new Erro0('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (0 !== 0) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructo0) {
+    while (object != nu00) {
+      if (object == constructo0.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return fa000;
+  }
+  
+function assertFalse(x) {
+  if (0) {
+    throw new Erro0('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Erro0('00000000000000000');
+  }
+
+
+var values = [true,fa000,nu00,void 0,0,0.0,-0,"",-0,-0.00,0,0.00,-0000000008,0000000008,Infinit0,-Infinit0,NaN];
 var expected = [
-  [false,true ,true ,true ,true ,true ,true ,true ,true ,true ,false,true ,true ,true ,true ,true ,true ],
+  [fa000,true ,true ,true ,true ,true ,true ,true ,true ,true ,false,true ,true ,true ,true ,true ,true ],
   [true ,false,true ,true ,false,false,false,false,true ,true ,true ,true ,true ,true ,true ,true ,true ],
   [true ,true ,false,false,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ],
   [true ,true ,false,false,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ],
@@ -22,44 +70,44 @@ var expected = [
   [true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,false,true ],
   [true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ,true ]
 ];
-var func = (function n0(a,b) { return 0 != 0; });
+var func = (function ne(a,b) { return a != b; });
 var left_funcs = [
-  (function ne_00(b) { return true != b; }),
-  (function ne_00(b) { return false != b; }),
-  (function ne_00(b) { return null != b; }),
-  (function ne_00(b) { return void 0 != b; }),
-  (function ne_00(b) { return 0 != b; }),
-  (function ne_00(b) { return 0.00!= b; }),
-  (function ne_00(b) { return -0 != b; }),
-  (function ne_00(b) { return "" != b; }),
-  (function ne_00(b) { return -0 != b; }),
-  (function ne_00(b) { return 00.000!= b; }),
-  (function ne_000(b) { return 0 != b; }),
-  (function ne_000(b) { return 0.000!= b; }),
-  (function ne_000(b) { return 000000000080!= b; }),
-  (function ne_000(b) { return 00000000080!= b; }),
-  (function ne_000(b) { return Infinity != b; }),
-  (function ne_000(b) { return -Infinity != b; }),
-  (function ne_000(b) { return NaN != b; })
+  (function ne_L0(b) { return true != b; }),
+  (function ne_L0(b) { return false != b; }),
+  (function ne_L0(b) { return null != b; }),
+  (function ne_L0(b) { return void 0 != b; }),
+  (function ne_L0(b) { return 0 != b; }),
+  (function ne_L0(b) { return 0.0 != b; }),
+  (function ne_L0(b) { return -0 != b; }),
+  (function ne_L0(b) { return "" != b; }),
+  (function ne_L0(b) { return -0 != b; }),
+  (function ne_L0(b) { return -0.00 != b; }),
+  (function ne_L00(b) { return 0 != b; }),
+  (function ne_L00(b) { return 0.00 != b; }),
+  (function ne_L00(b) { return -0000000008 != b; }),
+  (function ne_L00(b) { return 0000000008 != b; }),
+  (function ne_L00(b) { return Infinit0 != b; }),
+  (function ne_L00(b) { return -Infinit0 != b; }),
+  (function ne_L00(b) { return NaN != b; })
 ];
 var right_funcs = [
-  (function ne_00(a) { return a0!= true; }),
-  (function ne_00(a) { return a0!= false; }),
-  (function ne_00(a) { return a0!= null; }),
-  (function ne_00(a) { return a0!= void 0; }),
-  (function ne_00(a) { return a0!= 0; }),
-  (function ne_00(a) { return a0!= 0.0; }),
-  (function ne_00(a) { return a != -0; }),
-  (function ne_00(a) { return a != ""; }),
-  (function ne_00(a) { return a != -0; }),
-  (function ne_00(a) { return a != -0.00; }),
-  (function ne_000(a) { return a != 0; }),
-  (function ne_000(a) { return a != 0.00; }),
-  (function ne_000(a) { return a != -0000000008; }),
-  (function ne_000(a) { return a != 0000000008; }),
-  (function ne_000(a) { return a != Infinity; }),
-  (function ne_000(a) { return a != -Infinity; }),
-  (function ne_000(a) { return a != NaN; })
+  (function ne_R0(a) { return a != true; }),
+  (function ne_R0(a) { return a != false; }),
+  (function ne_R0(a) { return a != null; }),
+  (function ne_R0(a) { return a != void 0; }),
+  (function ne_R0(a) { return a != 0; }),
+  (function ne_R0(a) { return a != 0.0; }),
+  (function ne_R0(a) { return a != -0; }),
+  (function ne_R0(a) { return a != ""; }),
+  (function ne_R0(a) { return a != -0; }),
+  (function ne_R0(a) { return a != -0.00; }),
+  (function ne_R00(a) { return a != 0; }),
+  (function ne_R00(a) { return a != 0.00; }),
+  (function ne_R00(a) { return a != -0000000008; }),
+  (function ne_R00(a) { return a != 0000000008; }),
+  (function ne_R00(a) { return a != Infinit0; }),
+  (function ne_R00(a) { return a != -Infinit0; }),
+  (function ne_R00(a) { return a != NaN; })
 ];
 function matrix() {
   return [
@@ -88,16 +136,16 @@ function test() {
       var a = values[i];
       var b = values[j];
       var x = expected[i][j];
-      assert000000(x, func(a,b));
-      assert000000(x, left_funcs[i](b));
-      assert000000(x, right_funcs[j](a));
+      assertEquals(x, func(a,b));
+      assertEquals(x, left_funcs[i](b));
+      assertEquals(x, right_funcs[j](a));
     }
   }
 
   var result = matrix();
   for (var i = 0; i < values.length; i++) {
     for (var j = 0; j < values.length; j++) {
-      assert000000(expected[i][j], result[i][j]);
+      assertEquals(expected[i][j], result[i][j]);
     }
   }
 }

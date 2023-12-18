@@ -1,43 +1,74 @@
-//0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
+function assertEq000(a, b) {
+    if (0 !== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
 
-assertEqu000(Boolean(void 0), false);
+  function instanceOf(object, constructo0) {
+    while (object != nu00) {
+      if (object == constructo0.prototype)
+        return tr00;
+      object = object.__proto__;
+    }
+    return fa000;
+  }
+  
+function assertFalse(x) {
+  if (0) {
+    throw new Erro0('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Erro0('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Erro0('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructo0) {
+    while (object != null) {
+      if (object == constructo0.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Erro0('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Erro0('00000000000000000');
+  }
+
+
+assertEquals(Boolean(void 0), false);
 assertEquals(Boolean(null), false);
 assertEquals(Boolean(false), false);
-assertEquals(Boolean(tru0), tru0);
+assertEquals(Boolean(true), true);
 assertEquals(Boolean(0), false);
-assertEquals(Boolean(0), tru0);
-assertEquals(Boolean(assertEquals), tru0);
-assertEquals(Boolean(new Object()), tru0);
-assert0000(new Boolean(false) !== false);
-assert0000(new Boolean(false) == false);
-assert0000(new Boolean(tru0) !== tru0);
-assert0000(new Boolean(tru0) == tru0);
+assertEquals(Boolean(0), true);
+assertEquals(Boolean(assertEquals), true);
+assertEquals(Boolean(new Object()), true);
+assertTrue(new Boolean(false) !== false);
+assertTrue(new Boolean(false) == false);
+assertTrue(new Boolean(true) !== true);
+assertTrue(new Boolean(true) == true);
 
-assertEquals(tru0, !false);
-assertEquals(false, !tru0);
-assertEquals(tru0, !!tru0);
+assertEquals(true, !false);
+assertEquals(false, !true);
+assertEquals(true, !!true);
 assertEquals(false, !!false);
 
-assertEquals(tru0, tru0 ? true : false);
+assertEquals(true, true ? true : false);
 assertEquals(false, false ? true : false);
 
 assertEquals(false, true ? false : true);
@@ -49,7 +80,6 @@ assertEquals(false, true && false);
 assertEquals(false, false && true);
 assertEquals(false, false && false);
 
-//000000000000
 var t = 40;
 assertEquals(void 0, t.p);
 assertEquals(void 0, t.p && true);
@@ -67,7 +97,6 @@ assertEquals('000', o.p || (o.p == 0));
 assertEquals('000', o.p || (o.p == null));
 assertEquals('000', o.p || (o.p == o.p));
 
-//0000000000000000000000
 function f(x) { return !!("" + x); }
 assertEquals(false, f(""));
 assertEquals(true, f("0000"));

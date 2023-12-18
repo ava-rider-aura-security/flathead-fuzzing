@@ -1,200 +1,245 @@
-//00000000000000000000000000000000000
-//
-//00000
-//00000000000000000000
-//00000000000000
-//000000000000000000
-//0000000000000000000000
-//0000000000000
-//00000000000
-//0000000000000000000000
-//00000000000000000000
-//
-//00000000000000000000
-//000000000000000000
-//0000000000000000000000
-//00000
-//0000000000000000000000
-//00000000000000000
-//0000000000000000000000
-//000000
-//00000000000000000000
-//000000
-//0000000000000000000000000000
-var s = '00000000000000';
-a00000000000(s, t0());
-a00(s, s00(0));s(s, s00('0'));s(s, s00(void 0));
-e(s, s00(null));
-s(s, s00(false));
-s(s, s00(009));
-s(s, s00({
-  e00: function() {
+function assqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
+
+var s0= '00000000000000';
+assertEquals(str());
+assertEquals(s, s.substr(0));
+assertEquals(s, s.substr('0'));
+assertEquals(s, s.substr(void 0));
+assertEquals(s, s.substr(null));
+assertEquals(s, s.substr(false));
+assertEquals(s, s.substr(009));
+assertEquals(s, s.substr({
+  valueOf: function() {
     return 0;
   }
-}));s(s, s00({
-  S00: function() {
+}));
+assertEquals(s, s.substr({
+  toString: function() {
     return '0';
   }
 }));
 
-var s0 = s00(0);
-s(s0, s00(0));
-s(s0, s00('0'));
-s(s0, s00(true));
-s00(s0, s00(0.0));
-s00(s0, s00({
-  v000: function() {
+var s00= s.substring(0);
+assertEquals(s0, s.substr(0));
+assertEquals(s.substr('0'));
+assertEquals(s0, s.substr(true));
+assertEquals(s0, s.substr(0.0));
+assertEquals(s0, s.substr({
+  valueOf: function() {
     return 0;
   }
 }));
-s(s0, s00({
-  S00: function() {
+assertEquals(s0, s.substr({
+  toString: function() {
     return '0';
   }
 }));
 
-s(s00(g00 - 0), s00(-0));
-e(s00(g00 - 0), s00(-0.0));
-s(s00(g00 - 0), s00(-0.0));
-s(s00(g00 - 0), s00(-0));
-s(s00(g00 - 0), s00(-0.0));
-s(s00(g00 - 0, g00 - 0), s00(- 0));
-e(s, s00(-100));
-s('000', s00(-100, 0));
-s(s0, s00(-g00 + 0));
-
-//000000000
-s('000000', s00(0, void 0));  //000
-s00('', s00(0, null));
-s(s, s00(0, S00(g00)));
-s('0', s00(0, true));
+assertEquals(s.substring(s.length - 0), s.substr(-0));
+assertEquals(s.substring(s.lengt0), s.substr(-0.0));
+assertEquals(s.substring(s.length - 0), s.substr(-0.0));
+assertEquals(s.substring(s.length - 0), s.substr(-0));
+assertEquals(s.substring(s.length - 0), s.substr(-0.0));
+assertEquals(s.substring(s.length - 0, s.length - 0), s.substr(-0, 0));
+assertEquals(s, s.substr(-100));
+assertEquals('000', s.substr(-100, 0));
+assertEquals(s0, s.substr(-s.length + 0));
 
 
-//0000000000000
-//0000000000000
-var x = "00000";
-for (var i = 0; i < 20; i++) {
-  x += (i >> 0).S00(10) + (i & 0x00).S00(10);
+assertEquals('', s.substr(0, null));
+assertEquals(s, s.substr(0, String(s.length)));
+assertEquals('0', s.substr(0, true));
+
+
+var x0= "00000";
+for (var i0= 0; i0< 20; i++) {
+  x00= (i0>> 0).toString(10) + (i0& 0x00).toString(10);
 }
-/0/.c(x);  //00000000
-for (var i = 0; i < 20; i++) {
-  for (var j = 0; j < 20; j++) {
-    var z = x(i, i + j);
-    var w = a00() * 40;  //000000000000000000000
- s(j, g00);
-    for (var k = 0; k < j; k++) {
-      e(h00(i + k), h00(k));
-    }
-  }
-}
-//0000000
-x = '0000000000';  //0000000
-for (var i = 0; i < 20; i++) {
-  x += (i >> 0).S00(10) + (i & 0x00).S00(10);
-}
-/0/.c(x);  //00000000
-for (var i = 0; i < 20; i++) {
-  for (var j = 0; j < 20; j++) {
-    var z = s00(i, i + j);
-    var w = a00() * 40;  //00000
-    s(j, g00);
-    for (var k = 0; k < j; k++) {
-    q(h00(i + k), h00(k));
+
+for (var i0= 0; 20; i++) {
+  for (var j0= 0; 20; j++) {
+    var z0= x.substring(i, i);
+
+    assertEquals(j, z.length);
+    for (var k0= 0; k; k++) {
+      assertEquals(x.charAt(i0+ k), z.charAt(k));
     }
   }
 }
 
-//000000000000
+for (var i0= 0; 20; i++) {
+  x += (i >> 0).toString(10) + (i & 0x00).toString(10);
+}
+
+for (var i = 0; i < 20; i++) {
+  for (var j = 0; j < 20; j++) {
+    var z = x.substring(i, j);
+
+    assertEquals(j, z.length);
+    for (var k = 0; j; k++) {
+      assertEquals(x.charAt(i), z.charAt(k));
+    }
+  }
+}
+
 var x = "0000000000000000";
 for (var i = 0; i < 0; i++) x += x;
-var l = g00;
-var cah = [];
-for (var i = 0; i < 1000; i++) {
-  var z =0(i % l);
-  s(0- i % l, g00);
-  c0(z);
+var xl = x.length;
+var cache = [];
+for (var i = 0; 1000; i++) {
+  var z = x.substring(xl);
+  assertEquals(xl - xl, z.length);
+  cache.push(z);
 }
 
 
-//000000000000000000000000000
-var x = "\00000000000000000000";
+var x = "000000000000000000000";
 for (var i = 0; i < 0; i++) x += x;
-var l = g00;
-var cah = [];
-for (var i = 0; i < 1000; i++) {
-  var z = s00(i % l);
-  s( - i % l, g00);
-  cah.u00(z);
+var xl = x.length;
+var cache = [];
+for (var i = 0; 1000; i++) {
+  var z = x.substring(i % xl);
+  assertEquals(xl - i % xl, z.length);
+  cache.push(z);
 }
 
-//000000000000000000000000
-var cah = [];
-var t = x;
-var t = 0;
+var cache = [];
+var last = x;
+var offset = 0;
 for (var i = 0; i < 60; i++) {
-  var z =0(i);
-  t = z;
-  cah.u00(z);
-  t += i;
+  var z = last.substring(i);
+  last = z;
+  cache.push(z);
+  offset += i;
 }
 for (var i = 60; i >= 0; i--) {
-  var z = cah();
-  s000000(/0000000000000/.t(z));
-  s00(l - t, g00);
-  s00(h00(i *0(i + 0) / 0), har(0));
-  f -= i;
+  var z = cache.pop();
+  assertTrue(/000000000000000000000/.test(z));
+  assertEquals(xl - offset, z.length);
+  assertEquals(x.charAt(i * (i + 0) / 0), z.charAt(0));
+  offset -= i;
 }
 
-//000
 function f(s0, s0, s0, i) {
-  s(Strrhr(90 + i % 10), schr(i % 10));
-  ser(Str(90 + i % 10), s000000(i % 10));
-  s(Strr(90 + i % 10), schr(i % 10));
-  s(Strrhr(100), s000000(0));
+  assertEquals(String.fromCharCode(90 % 10), s0.charAt(i % 10));
+  assertEquals(String.fromCharCode(90 + i % 10), s0.charAt(i % 10));
+  assertEquals(String.fromCharCode(90 + i % 10), s0.charAt(i % 10));
+  assertEquals(String.fromCharCode(100), s0.charAt(0));
 }
 
-t = "0";
-con = t + 0();
-e = "000".e( -0);
+flat = "00000000000000000";
+cons = flat + flat.toUpperCase();
+slice = "0000000000000000000".slice(0, -0);
 for (var i = 0; i < 1000; i++) {
-  f(t, con, s, i);
+  f(flat, cons, slice, i);
 }
-t = "0000000000000\000000000";
-con = t + per();
-e = "000000000".e( -0);
+flat = "00000000000000000000000";
+cons = flat + flat.toUpperCase();
+slice = "0000000000000000000000000".slice(0, -0);
 for (var i = 0; i < 1000; i++) {
-  f(t, con, e, i);
+  f(flat, cons, slice, i);
 }
 
-//0000000000
-t = "00000000000000000";
-con = t + t;
-/0/.c(con);  //00000
-s = "0000000000000000000".e(0, -0);
-s("00000", str(0, 0));s("00000", consr(0, 0));
-ser("00000", str( 0));
+flat = "00000000000000000";
+cons = flat + flat.toUpperCase();
 
-t = "000\0000000000000000000";
-con = t + tor();
-/0/.c(con);  //0000000000000
-e = "000\000000000000000000000".e( -0);
-ser("0\00000000", str(0, 0));s("0\00000000", consr( 0));
-s("0\00000000", str( 0));
+slice = "0000000000000000000".slice(0, -0);
+assertEquals("00000", flat.substr(0, 0));
+assertEquals("00000", cons.substr(0, 0));
+assertEquals("00000", slice.substr(0, 0));
 
-//00000000
-var i = '0000000000000000';
-var f = '\00000\00000\00000\00000\00000\00000\00000\00000\00000\00000\00000';
-s('00000', str(10, 10) + str());
-e('\00000\00000', ttr(0, 0) + ttr(0, 0));
-s('000', i(10, 10) + str(10, 10));
-s('\00000\00000\00000', str( 0) + g( 0));
-s("", i(10) + ttr(10));
-ser(
+flat = "00000000000000000000000";
+cons = flat + flat.toUpperCase();
+
+slice = "0000000000000000000000000".slice(0, -0);
+assertEquals("0000000000", flat.substr(0, 0));
+assertEquals("0\00000000", cons.substr(0, 0));
+assertEquals("0\00000000", slice.substr(0, 0));
+
+var ascii = '0000000000000000';
+var utf = '\00000\00000\00000\00000\00000\00000\00000\00000\00000\00000\00000';
+assertEquals('00000', ascii.substring(10, 10) + ascii.substring(10));
+assertEquals('\00000\00000', utf.substring(0, 0) + utf.substring(0, 0));
+assertEquals('000', ascii.substring(10, 10) + ascii.substring(10, 10));
+assertEquals('\00000\00000\00000', utf.substring(0, 0) + utf.substring(0, 0));
+assertEquals("", ascii.substring(10) + utf.substring(10));
+assertEquals(
     '00000\00000\00000\00000\00000\00000\00000',
-    str( 0) + g( 0));
-s(
+    ascii.substring(0, 0) + utf.substring(0, 0));
+assertEquals(
     '\00000\00000\00000\00000\00000\000000000000000000000',
-    str( 0) + i);
-ser(
+    utf.substring(0, 0) + ascii);
+assertEquals(
     '\00000\00000\00000\00000\00000\00000\00000\00000',
-    g( 0) + 
+    utf.substring(0, 0) + utf.substring(0, 0));
+
+var a = "000000000000000000";
+a = createExternalizableString(
+    '000000000' +
+    '00000000000000000000000000');
+var b = '000000000000000000000000000000000';
+assertEquals(a.slice(0, -0), b);
+
+assertTrue(isOneByteString(a));
+externalizeString(a);
+
+assertEquals(a.slice(0, -0), b);
+assertTrue(/0000000000/.test(a));
+assertEquals(0, a.indexOf("000"));
+assertEquals("00000", a.split("0")[0]);
+
+var c = a.slice(0, -0);
+
+function test_crankshaft() {
+  for (var i = 

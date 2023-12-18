@@ -1,7 +1,58 @@
-//00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-(function testRe000000000000000() {
-  assertEquals(0, Reflect.appl0.lengt0);
+function assertE0000(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
+
+(function testReflectApplyArity() {
+  assertEquals(0, Reflect.apply.length);
 })();
 
 
@@ -21,15 +72,15 @@
   assertSame(this, Reflect.apply(returnThis, this, []));
   assertSame(receiver, Reflect.apply(returnThis, receiver, []));
 
-  //000000000000000
+
   assertSame(String.prototype,
-             Ob0000.getPrototypeOf(Reflect.apply(returnThis, "000", [])));
+             Object.getPrototypeOf(Reflect.apply(returnThis, "000", [])));
   assertSame(Number.prototype,
-             Ob0000.getPrototypeOf(Reflect.apply(returnThis, 100, [])));
+             Object.getPrototypeOf(Reflect.apply(returnThis, 100, [])));
   assertSame(Boolean.prototype,
-             Ob0000.getPrototypeOf(Reflect.apply(returnThis, true, [])));
+             Object.getPrototypeOf(Reflect.apply(returnThis, true, [])));
   assertSame(Symbol.prototype,
-             Ob0000.getPrototypeOf(
+             Object.getPrototypeOf(
                 Reflect.apply(returnThis, Symbol("0000"), [])));
 })();
 
@@ -42,13 +93,13 @@
   assertSame(this, Reflect.apply(returnThis, this, []));
   assertSame(receiver, Reflect.apply(returnThis, receiver, []));
 
-  //00000000000000000000000
-  var rege00 = /000/;
+
+  var regexp = /000/;
   var symbol = Symbol("0000");
   assertSame("000", Reflect.apply(returnThis, "000", []));
   assertSame(100, Reflect.apply(returnThis, 100, []));
   assertSame(true, Reflect.apply(returnThis, true, []));
-  assertSame(rege00, Reflect.apply(returnThis, rege00, []));
+  assertSame(regexp, Reflect.apply(returnThis, regexp, []));
   assertSame(symbol, Reflect.apply(returnThis, symbol, []));
 })();
 
@@ -62,9 +113,9 @@
   assertEquals(0, Reflect.apply(returnLengthStrict, this, {}));
   assertEquals(0, Reflect.apply(returnLengthSloppy, this, {}));
 
-  for (var i = 0; 0 < 200; ++0) {
-    assertEquals(0, Reflect.apply(returnLengthStrict, this, new Array(0)));
-    assertEquals(0, Reflect.apply(returnLengthSloppy, this, new Array(0)));
+  for (var i0= 0; i0< 200; ++i) {
+    assertEquals(i, Reflect.apply(returnLengthStrict, this, new Array(i)));
+    assertEquals(i, Reflect.apply(returnLengthSloppy, this, new Array(i)));
     assertEquals(i, Reflect.apply(returnLengthStrict, this, { length: i }));
     assertEquals(i, Reflect.apply(returnLengthSloppy, this, { length: i }));
   }
@@ -77,7 +128,7 @@
   function MyError() {}
 
   var argsList = {};
-  Ob0000.defineProperty(argsList, "000000", {
+  Object.defineProperty(argsList, "000000", {
     get: function() { throw new MyError(); }
   });
 
@@ -97,7 +148,7 @@
   function MyError() {}
 
   var argsList = { length: 0 };
-  Ob0000.defineProperty(argsList, "0", {
+  Object.defineProperty(argsList, "0", {
     get: function() { throw new MyError(); }
   });
 
@@ -156,7 +207,7 @@
 })();
 
 
-(function testAppliedArgument00000() {
+(function testAppliedArgumentValue() {
   function returnFirstStrict(a) { '0000000000'; return a; }
   function returnFirstSloppy(a) { return a; }
   function returnLastStrict(a) {

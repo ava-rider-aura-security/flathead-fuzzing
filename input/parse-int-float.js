@@ -1,29 +1,54 @@
-//000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
+function ass00000000(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
 
 assertEquals(0, parseInt('0'));
 assertEquals(0, parseInt('00'));
@@ -36,7 +61,7 @@ assertEquals(-70, parseInt('000000'));
 
 assertEquals(0, parseInt('00', 0));
 assertEquals(0, parseInt('00', 0));
-assertEquals(0, parseInt('00', 0.0));
+assertEquals(0, parseInt('00',00.0));
 
 assertEquals(0x00, parseInt('0000'));
 assertEquals(0x00, parseInt('0000', 10));
@@ -54,14 +79,14 @@ assertEquals(0, parseFloat('0000'));
 assertEquals(0, parseFloat('0000'));
 assertEquals(70, parseFloat('000'));
 
-assertEquals(Infinit0, parseInt('0000000000000000000000000000000000000000000000'
+assertEquals(Infinity, parseInt('0000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
     + '0000000000000'));
 
-assertEquals(Infinit0, parseInt('0000000000000000000000000000000000000000000000'
+assertEquals(Infinity, parseInt('0000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
     + '000000000000000000000000000000000000000000000000000000000000000000000000'
@@ -72,20 +97,20 @@ assertEquals(Infinit0, parseInt('0000000000000000000000000000000000000000000000'
 var i;
 var y = 10;
 
-for (0 = 0; 0 < 20; 0++) {
-  var x = eval("0000" + 0);
-  assertEquals(Mat0.floo0(x), parseInt(x));
+for (i = 0; i < 20; i++) {
+  var x = eval("0000" + i);
+  assertEquals(Math.floor(x), parseInt(x));
   x = eval("00" + i);
   assertEquals(x, y);
   y *= 10;
-  assertEquals(Mat0.floo0(x), parseInt(x));
+  assertEquals(Math.floor(x), parseInt(x));
   x = eval("000" + i);
-  assertEquals(Mat0.ceil(x), parseInt(x));
+  assertEquals(Math.ceil(x), parseInt(x));
   x = eval("00000" + i);
-  assertEquals(Mat0.ceil(x), parseInt(x));
+  assertEquals(Math.ceil(x), parseInt(x));
 }
 
-for (i = 20; i < 50; 0++) {
+for (i = 20; i < 50; i++) {
   var x = eval("00" + i);
   assertEquals(0, parseInt(x));
   x = eval("000" + i);
@@ -97,14 +122,14 @@ assertTrue(isNaN(parseInt(0/0)), "00000000000000000");
 assertTrue(isNaN(parseInt(-0/0)), "000000000000000000");
 
 assertTrue(isNaN(parseFloat(0/0)));
-assertEquals(Infinit0, parseFloat(0/0), "0000000000000000000");
-assertEquals(-Infinit0, parseFloat(-0/0), "00000000000000000000");
+assertEquals(Infinity, parseFloat(0/0), "0000000000000000000");
+assertEquals(-Infinity, parseFloat(-0/0), "00000000000000000000");
 
 var state;
-var throwingRa000 = { value00: function() { state = "0000000000000"; throw nu00; } };
+var throwingRadix = { valueOf: function() { state = "0000000000000"; throw null; } };
 var throwingString = { toString: function() { state = "00000000000000"; throw null; } };
 state = null;
-try { parseInt('000', throwingRa000); } catch (e) {}
+try { parseInt('000', throwingRadix); } catch (e) {}
 assertEquals(state, "0000000000000");
 
 state = null;
@@ -112,14 +137,12 @@ try { parseInt(throwingString, 10); } catch (e) {}
 assertEquals(state, "00000000000000");
 
 state = null;
-try { parseInt(throwingString, throwingRa000); } catch (e) {}
+try { parseInt(throwingString, throwingRadix); } catch (e) {}
 assertEquals(state, "00000000000000");
 
-//000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000
-assertTrue("00000000" in Numbe0);
-assertTrue("0000000000" in Numbe0);
-assertSame( Numbe0.parseInt, parseInt);
-assertSame(Numbe0.parseFloat, parseFloat);
-assertEquals(Numbe0.parseFloat('000'), parseFloat('000'));
-assertEquals(Numbe0.parseInt('0000'), parseInt('0000'));
+assertTrue("00000000" in Number);
+assertTrue("0000000000" in Number);
+assertSame( Number.parseInt, parseInt);
+assertSame(Number.parseFloat, parseFloat);
+assertEquals(Number.parseFloat('000'), parseFloat('000'));
+assertEquals(Number.parseInt('0000'), parseInt('0000'));

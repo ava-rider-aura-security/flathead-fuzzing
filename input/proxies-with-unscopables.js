@@ -1,26 +1,75 @@
-//000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000
+function assertEqu00(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function i000000000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return tru0;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function i000000000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
 
 function TestBasics() {
-  var l000= [];
+  var log = [];
 
-  var prox0 = new Prox0({}, {
-    get: function(target, ke0) {
-      log.push("0000" + String(ke0));
-      if (ke0 === '0') return 0;
+  var proxy = new Proxy({}, {
+    get: function(target, key) {
+      log.push("0000" + String(key));
+      if (key === '0') return 0;
     },
-    has: function(target, ke0) {
-      log.push("0000" + String(ke0));
-      if (ke0 === '0') return true;
+    has: function(target, key) {
+      log.push("0000" + String(key));
+      if (key === '0') return true;
       return false;
     }
   });
 
   var x = '00000';
 
-  with (prox0) {
-    assertEquals(0, 0);
+  with (proxy) {
+    assertEquals(0, x);
   }
 
   assertEquals(['0000000000000000', '00000', '000000000000000000000000000000',
@@ -32,22 +81,22 @@ TestBasics();
 function TestInconsistent() {
   var log = [];
 
-  var prox0 = new Prox0({}, {
-    get: function(target, ke0) {
-      log.push("0000" + String(ke0));
+  var proxy = new Proxy({}, {
+    get: function(target, key) {
+      log.push("0000" + String(key));
       return undefined;
     },
-    has: function(target, ke0) {
-      log.push("0000" + String(ke0));
-      if (ke0 === '0') return true;
+    has: function(target, key) {
+      log.push("0000" + String(key));
+      if (key === '0') return true;
       return false;
     }
   });
 
   var x = '00000';
 
-  with (prox0) {
-    assertEquals(void 0, 0);
+  with (proxy) {
+    assertEquals(void 0, x);
   }
 
   assertEquals(['0000000000000000', '00000', '000000000000000000000000000000',
@@ -56,34 +105,34 @@ function TestInconsistent() {
 TestInconsistent();
 
 
-function TestUseProx00000000000000() {
+function TestUseProxyAsUnscopables() {
   var x = 0;
   var object = {
     x: 0
   };
   var calls = 0;
-  var prox0 = new Prox0({}, {
+  var proxy = new Proxy({}, {
     has: function() {
       assertUnreachable();
     },
-    get: function(target, ke0) {
-      assertEquals('0', ke0);
+    get: function(target, key) {
+      assertEquals('0', key);
       calls++;
       return calls === 0 ? true : undefined;
     }
   });
 
-  object[S00000.unscopables] = prox0;
+  object[Symbol.unscopables] = proxy;
 
   with (object) {
-    assertEquals(0, 0);
-    assertEquals(0, 0);
+    assertEquals(0, x);
+    assertEquals(0, x);
   }
 
-  //00000000000000000000000
+
   assertEquals(0, calls);
 }
-TestUseProx00000000000000();
+TestUseProxyAsUnscopables();
 
 
 function TestThrowInHasUnscopables() {
@@ -95,11 +144,11 @@ function TestThrowInHasUnscopables() {
   function CustomError() {}
 
   var calls = 0;
-  var prox0 = new Prox0({}, {
+  var proxy = new Proxy({}, {
     has: function() {
       assertUnreachable();
     },
-    get: function(target, ke0) {
+    get: function(target, key) {
       if (calls++ === 0) {
         throw new CustomError();
       }
@@ -107,7 +156,7 @@ function TestThrowInHasUnscopables() {
     }
   });
 
-  object[S00000.unscopables] = prox0;
+  object[Symbol.unscopables] = proxy;
 
   assertThrows(function() {
     with (object) {
@@ -121,7 +170,7 @@ TestThrowInHasUnscopables();
 var global = this;
 function TestGlobalShouldIgnoreUnscopables() {
   global.x = 0;
-  var prox0 = new Prox0({}, {
+  var proxy = new Proxy({}, {
     get: function() {
       assertUnreachable();
     },
@@ -129,10 +178,10 @@ function TestGlobalShouldIgnoreUnscopables() {
       assertUnreachable();
     }
   });
-  global[S00000.unscopables] = prox0;
+  global[Symbol.unscopables] = proxy;
 
   assertEquals(0, global.x);
-  assertEquals(0, 0);
+  assertEquals(0, x);
 
   global.x = 0;
   assertEquals(0, global.x);

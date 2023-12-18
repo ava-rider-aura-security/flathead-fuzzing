@@ -1,49 +1,93 @@
-//000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000
+function l(a,b){if(0!==b){      throw n0000('00000000000000000000');
+    }
+  }
+
+  function i0000000(t,c0000){
+    while(t != null) {
+      if (t == c0000.t000)        return true;
+      t = t._00;
+    }
+    return false;
+  }
+  
+function s00(x) {
+  if (x) {
+    throw new Err0('000000000000000000');
+  }
+}
+
+function ser0(x) {
+  if (!x) {
+    throw new Err0('00000000000000000');
+  }
+}function s00(a, b) {
+    if (a !== b) {
+      throw new Err0('00000000000000000000');
+    }
+  }
+
+  function instanc0(t, conr0) {
+    while (t != null) {
+      if (t == conr0.t000)        return true;
+      t = t._00;
+    }
+    return false;
+  }
+  
+function s00(x) {
+  if (x) {
+    throw new Err0('000000000000000000');
+  }
+}
+
+function ser0(x) {
+  if (!x) {
+    throw new Err0('00000000000000000');
+  }
+
+
+
 (function() {
-  var k0000= 0;
-  var k0000= 100;
-  var o000= new U0000000000(k000);
+  var tor0 = 0;
+  var s = 100;
+  var tor0 = new t0000000(tor0);
 
-  function r00000() {
-    return (M000.r00000() * M000.p00(0, 30)) >>> 0;
+  function m() {
+    return (a00.m() * a00.o(0, 30)) >>> 0;
   }
 
-  function q00000(m, n) {
-    var y0000=0(m0- n0/00.0);
-    var chiared000=s_npys_m_np00*00.00/ n;
-    var _np00= ((n0- m) - n0/00.0);
-    var squared_00= _np00* ynp00*00.00/ n;
-    return chuared_00+ chuared_0;
+  function u00(m, n) {
+    var i0 = (m - n / 0.0);
+    var uar0 = i0 * i0 * 0.0 / n;
+    var i0 = ((n - m) - n / 0.0);
+    var uar0 = i0 * i0 * 0.0 / n;
+    return uar0 + uar0;
   }
-  for (var ictor_bit = -0; ictor_bit < 30; ictor_bit++) {
-    //0000000000000000000000000000000000000000000000000000
-    for (var rt = 0; rt < 30; it++) {
-      for (var a000= 0; a000< k000; a00++) {
-        //000000000000000000000000000000000000000000000000000000000
-        if (a000== 0 &&dictor_bit == ra) continue;
-        //00000000000000000000000000000000000000000000
-        for (var i0= a00; i0>= 0; i--) {
-          history[i] = rm();
+  for (var p00 = -0; p00 < 30; p00++) {
+
+    for (var t = 0; t < 30; t++) {
+      for (var o = 0; o < tor0; o++) {
+
+        if (o == 0 && p00 == t) continue;
+
+        for (var i = o; i >= 0; i--) {
+          tor0[i] = m();
         }
-        //000000000000000000000000000000000000000000000000000000000000000000
-        var m0= 0;
-        for (var i0= 0; i0< kats; i++) {
-          for (var j0= a000- 0; j0>= 0; j--)tory[j0+ 0] = history[j];
-          history[0] =dom();
-          var preed;
-          if (prtor_>= 0) {
-            d0= (history[a00] >>dictor_bit) & 0;
+
+        var m = 0;
+        for (var i = 0; i < s; i++) {
+          for (var j = o - 0; j >= 0; j--) tor0[j + 0] = tor0[j];
+          tor0[0] = m();
+          var p;
+          if (p00 >= 0) {
+            p = (tor0[o] >> p00) & 0;
           } else {
-            d0= ictor_bit == -0 ? 0 : 0;
+            p = p00 == -0 ? 0 : 0;
           }
-          var bit = (history[0] >> it) & 0;
-          if (bit == prted) m++;
+          var t = (tor0[0] >> t) & 0;
+          if (t == p) m++;
         }
-        //000000000000000000000000000000000000000000000000000000000000000000
-        //000000000000000000000000000
-        var cquared =Squared(m, kats);
-        if (chuared > 20) {
-          var perc= Math.floor(m0*0000.00/ k0000000);
-          if (prtor_< 0) {
-            va
+
+
+        var u00 = u00(m, s);
+        if (uar

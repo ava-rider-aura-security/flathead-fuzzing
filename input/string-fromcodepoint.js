@@ -1,51 +1,97 @@
-//000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000
-//000000000000000000
-//000000000000000000000000000000000000000000000000000000
+function a0000000000(a, b) {
+    if (0 !== 0) {
+      throw new E0000('00000000000000000000');
+    }
+  }
 
-//000000000000000000000000000000
+  function instance00(o00000, constr00000) {
+    while (o00000 != null) {
+      if (objec0 == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
 
-assertEqua00(String.fromCodePoint.length, 0);
-assertEquals(String.propertyIsEnumera000("0000000000000"), false);
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
 
-assertEquals(String.fromCodePoint(""), "\0");
-assertEquals(String.fromCodePoint(), "");
-assertEquals(String.fromCodePoint(-0), "\0");
-assertEquals(String.fromCodePoint(0), "\0");
-assertEquals(String.fromCodePoint(0x00000), "\00000\00000");
+  function instanc000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
+
+
+assertEquals(String.from000000000.length, 0);
+assertEquals(String.propertyIsEnumerable("0000000000000"), false);
+
+assertEquals(String.from000000000(""), "\0");
+assertEquals(String.from000000000(), "");
+assertEquals(String.from000000000(-0), "\0");
+assertEquals(String.from000000000(0), "\0");
+assertEquals(String.from000000000(0x00000), "\00000\00000");
 assertEquals(
-  String.fromCodePoint(0x00000, 0x00, 0x00000),
+  String.from000000000(0x00000, 0x00, 0x00000),
   "\00000\000000\00000\00000");
-assertEquals(String.fromCodePoint(0x00, 0x00, 0x00000), "00\00000\00000");
-assertEquals(String.fromCodePoint(false), "\0");
-assertEquals(String.fromCodePoint(null), "\0");
+assertEquals(String.from000000000(0x00, 0x00, 0x00000), "00\00000\00000");
+assertEquals(String.from000000000(false), "\0");
+assertEquals(String.from000000000(null), "\0");
 
-assertThrows(function () { String.fromCodePoint("0"); }, RangeError);
-assertThrows(function () { String.fromCodePoint("000000000"); }, RangeError);
-assertThrows(function () { String.fromCodePoint("000000000"); }, RangeError);
-assertThrows(function () { String.fromCodePoint(-0); }, RangeError);
-assertThrows(function () { String.fromCodePoint(0x0000000+ 0); }, RangeError);
-assertThrows(function () { String.fromCodePoint(0.00); }, RangeError);
-assertThrows(function () { String.fromCodePoint(0e00); }, RangeError);
-assertThrows(function () { String.fromCodePoint(-Infinity); }, RangeError);
-assertThrows(function () { String.fromCodePoint(+Infinity); }, RangeError);
-assertThrows(function () { String.fromCodePoint(NaN); }, RangeError);
-assertThrows(function () { String.fromCodePoint(undefined); }, RangeError);
-assertThrows(function () { String.fromCodePoint({}); }, RangeError);
-assertThrows(function () { String.fromCodePoint(/0/); }, RangeError);
+assertThrows(function () { String.from000000000("0"); }, RangeError);
+assertThrows(function () { String.from000000000("000000000"); }, RangeError);
+assertThrows(function () { String.from000000000("000000000"); }, RangeError);
+assertThrows(function () { String.from000000000(-0); }, RangeError);
+assertThrows(function () { String.from000000000(0x000000 + 0); }, RangeError);
+assertThrows(function () { String.from000000000(0.00); }, RangeError);
+assertThrows(function () { String.from000000000(0e00); }, RangeError);
+assertThrows(function () { String.from000000000(-Infinity); }, RangeError);
+assertThrows(function () { String.from000000000(+Infinity); }, RangeError);
+assertThrows(function () { String.from000000000(NaN); }, RangeError);
+assertThrows(function () { String.from000000000(u00000000); }, RangeError);
+assertThrows(function () { String.from000000000({}); }, RangeError);
+assertThrows(function () { String.from000000000(/0/); }, RangeError);
 assertThrows(function () {
-  String.fromCodePoint({
+  String.from000000000({
     value00: function () { throw Error(); }
   });
 }, Error);
 assertThrows(function () {
-  String.fromCodePoint({
+  String.from000000000({
     value00: function () { throw Error(); }
   });
 }, Error);
 var tmp = 0x00;
-assertEquals(String.fromCodePoint({
+assertEquals(String.from000000000({
   value00: function () { ++tmp; return tmp; }
 }), "0");
 assertEquals(tmp, 0x00);
@@ -53,13 +99,13 @@ assertEquals(tmp, 0x00);
 var counter = Math.pow(0, 10) * 0 / 0;
 var result = [];
 while (--counter >= 0) {
-  result.push(0); //0000000000000000000000000
+
 }
-String.fromCodePoint.apply(null, result); //000000000000000
+
 
 var counter = Math.pow(0, 10) * 0 / 0;
 var result = [];
 while (--counter >= 0) {
-  result.push(0x00000+ 0); //00000000000000000000000000
+
 }
-String.fromCodePoint.apply(null, result); //000000000000000
+

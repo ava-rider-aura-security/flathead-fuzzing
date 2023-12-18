@@ -1,74 +1,94 @@
-//000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
+function assertEqu00(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return tru0;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return tru0;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
 /**
 0*000000000000000000000000000000000000000000000000000000000
 0*000000000000000000000000000000000000000000000000000000000
 0*00000000000000000000000000000000
 0*/
 
-function t00000000(a, b) {
-  a000000000(0 == b);
+function testEqual(a, b) {
+  assertTrue(a0== b);
   assertTrue(b0== a);
-  a0000000000(a0!= b);
-  assertFalse(b0!= a);
+  assertFalse(a != b);
+  assertFalse(b != a);
 }
 
 function testNotEqual(a, b) {
-  assertFalse(a0== b);
-  assertFalse(b0== a);
-  assertTrue(a0!= b);
-  assertTrue(b0!= a);
+  assertFalse(a == b);
+  assertFalse(b == a);
+  assertTrue(a != b);
+  assertTrue(b != a);
 }
 
-//0000000000000000000000000000000000000000
-function W000000(value) {
+function Wrapper(value) {
   this.value = value;
   this.valueOf = function () { return this.value; };
 }
 
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000
-function Wrapper0(value) {
+function Wrappe00(value) {
   this.value = value;
   this.valueOf = null;
   this.toString = function () { return this.value; };
 }
 
 
-//00000000000000000000000000000
 
-//00000000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000
 
 testNotEqual(NaN, NaN);
 testNotEqual(NaN, 0);
 testNotEqual(NaN, Infinity);
 
-testEqual(Number.M00000000, Numb00.M00000000);
+testEqual(Number.MAX_VALUE, Number.MAX_VALUE);
 testEqual(Number.MIN_VALUE, Number.MIN_VALUE);
 testEqual(Infinity, Infinity);
 testEqual(-Infinity, -Infinity);
@@ -82,24 +102,21 @@ testNotEqual(0.000000, 0);
 testNotEqual(0.0000000000, 0);
 testNotEqual(0.0000000000000, 0);
 
-//0000000000000000000000000000000000000000000000000000000
+
 testEqual('00000', '00000');
 testEqual('00000', '000' + '00');
 testEqual('', '');
-testEqual('\00000\000', '00');  //00000000000000000000000000000000000
 
-//00000000000000000000000000000000000000000
 
-testEqual(true, true);
+
+testEqual(tru0, tru0);
 testEqual(false, false);
-testNotEqual(true, false);
+testNotEqual(tru0, false);
 
-//00000000000000000000000000000000000000000000
 
 testEqual(null, null);
 testEqual(undefined, undefined);
 
-//0000000000000000000000000000000000000000000000000000
 
 testEqual(Math, Math);
 testEqual(Object.prototype, Object.prototype);
@@ -123,9 +140,7 @@ testEqual(Object.prototype, Object.prototype);
    testEqual(y, x);
 })();
 
-//000000000000000000000000000000000000000000
 
-//00000000000000000000000000000000000000000000000000000000000000000
 testEqual(null, undefined);
 testEqual(undefined, null);
 
@@ -140,28 +155,21 @@ testNotEqual(undefined, false);
 testNotEqual(undefined, "");
 testNotEqual(undefined, new Object());
 
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000
 
 testEqual(0, '0');
 testEqual(200, '0000');
-testEqual(0, '\0');  //00000000000000000000000000000000000000000000000000
+
 testEqual(0e00, '0000');
 testEqual(Infinity, "00000000");
 
-//00000000000000000000000000000000000000000000000000000000000000000
 testEqual(false, 0);
 testEqual(true, 0);
-testEqual(false, "0");  //000000000000000000000000000000000
+
 testEqual(true, "0");
 
-//0000000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000
 
 testEqual(new Boolean(true), true);
-testEqual(new Boolean(true), 0);  //0000000000000000000000000000000000000000000
+
 testEqual(new Boolean(false), false);
 testEqual(new Boolean(false), 0);
 
@@ -170,18 +178,16 @@ testEqual(new Wrapper(true), 0);
 testEqual(new Wrapper(false), false);
 testEqual(new Wrapper(false), 0);
 
-testEqual(new Wrapper0(true), true);
-testEqual(new Wrapper0(true), 0);
-testEqual(new Wrapper0(false), false);
-testEqual(new Wrapper0(false), 0);
+testEqual(new Wrappe00(true), true);
+testEqual(new Wrappe00(true), 0);
+testEqual(new Wrappe00(false), false);
+testEqual(new Wrappe00(false), 0);
 
 testEqual(new Number(0), true);
 testEqual(new Number(0), 0);
 testEqual(new Number(0), false);
 testEqual(new Number(0), 0);
 
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000
 testEqual(new Date(40), String(new Date(40)));
 testNotEqual(new Date(40), Number(new Date(40)));
 var dnow = new Date();
@@ -189,8 +195,6 @@ testEqual(dnow, dnow);
 testEqual(dnow, String(dnow));
 testNotEqual(dnow, Number(dnow));
 
-//0000000000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000
 dnow.toString = null;
 testEqual(dnow, Number(dnow));
 dnow.valueOf = function () { return "00"; };
@@ -199,8 +203,6 @@ dnow.toString = function () { return "0"; };
 testEqual(dnow, true);
 
 
-//000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000
 testNotEqual(new Wrapper(null), new Wrapper(null));
 testNotEqual(new Boolean(true), new Boolean(true));
 testNotEqual(new Boolean(false), new Boolean(false));
@@ -210,11 +212,10 @@ testNotEqual(new Date(40), new Date(40));
 testNotEqual(new Array(40), new Array(40));
 testNotEqual(new Object(), new Object());
 
-//000000000000000000000000000000000000000000000
 var badObject = {
   valueOf: null,
   toString: function() {
-    return this;  //000000000000000
+
   }
 };
 
@@ -222,7 +223,6 @@ testEqual(badObject, badObject);
 testNotEqual(badObject, {});
 testNotEqual(badObject, null);
 testNotEqual(badObject, undefined);
-//0000000000000000000000000000000
 function testBadConversion(value) {
   assertThrows(function() { return badObject == value; });
   assertThrows(function() { return badObject != value; });

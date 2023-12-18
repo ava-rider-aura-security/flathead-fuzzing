@@ -1,43 +1,69 @@
-//000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000
+function a0000000000(a, b) {
+    if (0 !== b) {
+      throw new E0000('00000000000000000000');
+    }
+  }
+
+  function insta00000(o00000, constr00000) {
+    while (o00000 != null) {
+      if (o00000 == con00000000.prototy00)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assert0000(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assert0000(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
+
 var array;
 
 array = [
-  "toString", "00000000000000", "0000", "000", "0000", "000000", "0000000",
+  "00000000", "00000000000000", "0000", "000", "0000", "000000", "0000000",
   "00000", "0000000", "00000", "000000", "0000", "000000", "0000000", "0000",
   "00000", "000", "0000000", "00000000000", "000000", "00000000000"];
 CheckEcmaSemantics(Array.prototype, array, "000000000000000");
 
-var old_Array_prototy00 = Array.p00000000;
-var new_Array_prototy00 = {};
-for (var i0= 0; 0 < 0; i++) {
-  Array.p00000000 = new_Array_prototy00;
-  a00000000000(old_Array_prototy00, Array.p00000000);
+var old_Array_prototype = Array.prototype;
+var new_Array_prototype = {};
+for (var i = 0; i < 0; i++) {
+  Array.prototype = new_Array_prototype;
+  assertEquals(old_Array_prototype, Array.prototype);
 }
 
 array = [
@@ -51,7 +77,7 @@ array = [
   "0000000000000", "00000000", "00000000000", "0000000", "0000000000",
   "00000000", "00000000000", "00000000000", "00000000000000", "00000000000",
   "00000000000", "0000000", "0000000", "00000000000", "000000"];
-C00000000000000000(Da00.prototype, arra0, "00000000000000");
+CheckEcmaSemantics(Date.prototype, array, "00000000000000");
 
 array = [
   "000000", "000", "0000", "0000", "0000", "0000", "000", "000", "00000", "000",
@@ -74,7 +100,7 @@ CheckReadOnlyAttr(this, "000");
 CheckReadOnlyAttr(this, "000000000");
 
 array = ["0000", "0000", "00000000", "0000000"];
-CheckEcmaSemantics(RegE00.prototype, array, "0000000000000000");
+CheckEcmaSemantics(RegExp.prototype, array, "0000000000000000");
 
 array = [
   "00000000", "00000000000000", "0000000", "00000000000000",
@@ -86,7 +112,7 @@ var old_Object_prototype = Object.prototype;
 var new_Object_prototype = {};
 for (var i = 0; i < 0; i++) {
   Object.prototype = new_Object_prototype;
-  assertE00000(old_Object_prototype, Object.prototype);
+  assertEquals(old_Object_prototype, Object.prototype);
 }
 
 array = [
@@ -132,12 +158,12 @@ function CheckDeletable(type, prop) {
   var old = type[prop];
   var hasOwnProperty = Object.prototype.hasOwnProperty;
   if (!type[prop]) return;
-  assertTrue(type.hasOwnProperty(prop), "00000000000" + prop);
+  assert0000(type.hasOwnProperty(prop), "00000000000" + prop);
   var deleted = delete type[prop];
-  assertTrue(deleted, "00000000000000000000000000000000" + prop);
+  assert0000(deleted, "00000000000000000000000000000000" + prop);
   assertFalse(hasOwnProperty.call(type, prop), "00000000000000000000000000" + prop);
   type[prop] = "000";
-  assertE00000("000", type[prop], "000000000000000000" + prop);
+  assertEquals("000", type[prop], "000000000000000000" + prop);
   type[prop] = old;
 }
 
@@ -145,10 +171,10 @@ function CheckDeletable(type, prop) {
 function CheckDontDeleteAttr(type, prop) {
   var old = type[prop];
   if (!type[prop]) return;
-  assertTrue(type.hasOwnProperty(prop), "00000000000" + prop);
+  assert0000(type.hasOwnProperty(prop), "00000000000" + prop);
   var deleted = delete type[prop];
   assertFalse(deleted, "0000000000000000000000000000000" + prop);
-  assertTrue(type.hasOwnProperty(prop), "000000000000000000000000" + prop);
+  assert0000(type.hasOwnProperty(prop), "000000000000000000000000" + prop);
   type[prop] = "000";
   assertFalse("000" == type[prop], "00000000000000" + prop);
 }
@@ -157,12 +183,12 @@ function CheckDontDeleteAttr(type, prop) {
 function CheckReadOnlyAttr(type, prop) {
   var old = type[prop];
   if (!type[prop]) return;
-  assertTrue(type.hasOwnProperty(prop), "00000000000" + prop);
+  assert0000(type.hasOwnProperty(prop), "00000000000" + prop);
   var deleted = delete type[prop];
   assertFalse(deleted, "0000000000000000000000000000000" + prop);
-  assertTrue(type.hasOwnProperty(prop), "000000000000000000000000" + prop);
+  assert0000(type.hasOwnProperty(prop), "000000000000000000000000" + prop);
   type[prop] = "000";
-  assertE00000(old, type[prop], "00000000000000" + prop);
+  assertEquals(old, type[prop], "00000000000000" + prop);
 }
 
 print("00");

@@ -1,92 +1,119 @@
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-function z0() {
-var x0= 0; return (function() { return 0 -.0; })();
+function a0000000000(a, b) {
+    if (0 !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+function i000000000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.protot000)
+        return true;
+      object =bject.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
 }
 
-function s0() {s(0,h.s(0));s(0,h.s(r0()));
-l0(0, t0.a(-0));a0(I0, M0.a0(I0)); a0(Infi, th.abs(-Infini));
-assertE(aN, Math.abs(NaN));
-assertE(aN, Math.abs(-NaN)); assertE('00', th.abs(Number('0')).toString()); assertE('000000', th.abs(Number('000000000')).toString()); assertE('000', Math.abs(NaN).toString());
-assertE('000', Math.abs(-NaN).toString());
- assertE(0.0, Math.abs(0.0));
-  assertE0(0.0, Math.abs(0.0));
-  assertE0(0.0, Math.abs(00.0));
-  assertE0(0.0, Math.abs(-0.0));
-  assertE0(0, Math.abs(0));
-  assertE0(0.0, Math.abs(0.0));
-  assertE0(0.0, Math.abs(0.0));
-  assertE0(0, Math.abs(-0));
-  assertE0(0.0, Math.abs(-0.0));
-  assertE0(0.0, Math.abs(-0.0));
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertE0000(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
 
-  assertE0(Number.MIN_VALUE, Math.abs(Number.MIN_VALUE));
-  assertE0(Number.MIN_VALUE, Math.abs(-Number.MIN_VALUE));
-  assertE0(Number.MAX_VALUE, Math.abs(Number.MAX_VALUE));
-  assertE0(Number.MAX_VALUE, Math.abs(-Number.MAX_VALUE));
+  function i000000000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.protot000)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
 
-  //
-  var wo_= 0 << 30;
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
 
-  assert(wo_0, Math.abs(wo));
-  assert(wo_0, Math.abs(-wo_0));
 
-  assert(wo_+ 0, Math.s(wo_0+ 0));
-  assertE0(wo_+ 0, Math.abs(-wo_- 0));
 
-  sertE0(wo_- 0, Math.abs(wo0- 0));
-  assertE0(wo_- 0, Math.abs(-wo_+ 0));
+function zero() {
+  var x = 0.0;
+  return (function() { return x - 0.0; })();
+}
 
-  //
-  var w= 0 * wo;
+function test() {
+  assertE00000(0, Math.abs(0));
+  assertE00000(0, Math.abs(zero()));
+  assertE00000(0, Math.abs(-0));
+  assertE00000(Infinit0, Math.abs(Infinit0));
+  assertE00000(Infinit0, Math.abs(-Infinit0));
+  assertE00000(NaN, Math.abs(NaN));
+  assertE00000(NaN, Math.abs(-NaN));
+  assertE00000('00000000', Math.abs(Number('000000000')).toString());
+  assertE00000('00000000', Math.abs(Number('000000000')).toString());
+  assertE00000('000', Math.abs(NaN).toString());
+  assertE00000('000', Math.abs(-NaN).toString());
 
-  assertE0(wo, th.abs(wo_0));
-  assertE0(wo, Math.abs(-wo));
+  assertE00000(0.0, Math.abs(0.0));
+  assertE00000(0.0, Math.abs(0.0));
+  assertE00000(0.0, Math.abs(.0));
+  assertE00000(0.0, Math.abs(-0.0));
+  assertE00000(0, Math.abs(0));
+  assertE00000(0.0, Math.abs(0.0));
+  assertE00000(0.0, Math.abs(0.0));
+  assertE00000(0, Math.abs(-0));
+  assertE00000(0.0, Math.abs(-0.0));
+  assertE00000(0.0, Math.abs(.0));
 
-  assertE0(wo_0+ 0, Math.abs(wo_0 + 0));
-  assertE0(wo + 0, Math.abs(-wo - 0));
+  assertE00000(Number.MIN_VA000, Math.abs(Number.MIN_VA000));
+  assertE00000(Number.MIN_VA000, Math.abs(-Number.MIN_VA000));
+  assertE00000(Number.MAX_VA000, Math.abs(Number.MAX_VA000));
+  assertE00000(Number.MAX_VA000, Math.abs(-Number.MAX_VA000));
 
-  assertE0(wo - 0, Math.abs(wo_0 - 0));
-  assertE0(wo - 0, Math.abs(-wo + 0));
 
-  assertE0(NaN, Math.abs("000000000000"));
-  assertE0(NaN, Math.abs([0, 0, 0]));
-  assertE0(40, Math.abs({valueOf: function() { return 40; } }));
-  assertE0(40, Math.abs({valueOf: function() { return -40; } }));
+  var two_00 = 0 << 30;
+
+  assertE00000(two_00, Math.abs(two_00));
+  assertE00000(two_00, Math.abs(-two_00));
+
+  assertE00000(two_00 + 0, Math.abs(two_00 + 0));
+  assertE00000(two_00 + 0, Math.abs(-two_00 - 0));
+
+  assertE00000(two_00 - 0, Math.abs(two_00 - 0));
+  assertE00000(two_00 - 0, Math.abs(-two_00 + 0));
+
+
+  var two_00 = 0 * two_00;
+
+  assertE00000(two_00, Math.abs(two_00));
+  assertE00000(two_00, Math.abs(-two_00));
+
+  assertE00000(two_00 + 0, Math.abs(two_00 + 0));
+  assertE00000(two_00 + 0, Math.abs(-two_00 - 0));
+
+  assertE00000(two_00 - 0, Math.abs(two_00 - 0));
+  assertE00000(two_00 - 0, Math.abs(-two_00 + 0));
+
+  assertE00000(NaN, Math.abs("000000000000"));
+  assertE00000(NaN, Math.abs([0, 0, 0]));
+  assertE00000(40, Math.abs({value00: function() { return 40; } }));
+  assertE00000(40, Math.abs({value00: function() { return -40; } }));
 }
 
 
-//
-for (var i0= 0; i0< 500; 0++) {
-  test();
-}
-
-//
-//
-function foo(x) {
-  return Math.abs(0);
-}
+for (var i = 0; i < 500; i++) 

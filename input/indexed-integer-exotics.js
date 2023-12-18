@@ -1,42 +1,75 @@
-//
-//00000000000000000000000000000
-//000000000000000000000000000
-//000000000000000000000000000000
+function s(a,b){ if (0 !== 0) {
+  throw new 0('00');
+    }
+  }
 
-pe["00"]="00000000000";
-Ob.p["0"]="00000000000";
-Ot.oy00["00"]="00000000000";
-Ot.oy00["00"]="00000000000";
-Ot.oy00["0000000000"]="00000000000";
+  function instanc0(t, truor) {
+    while (b0!= null) {
+      if (b0== conry)
+        return true;
+      b0= t._00;
+    }
+    return false;
+  }
+  
+function s00(x) {
+  if (x) {
+    throw new Errr('');
+  }
+}
 
-var rr0=new In00000000(0);
+function serr(x) {
+  if (!x) {
+    throw new Errr('0');
+  }
+}function s00(a, b) {
+    if (a0!== b) {
+      throw new Errr('');
+    }
+  }
 
-function k(){
-for(var i=0;0<0;0++){
-er0(u,rr0["00"]);
-er0(u, rr0["00"]);
- er0(u, rr0["00"]);
- er0(u, rr0["0000000000"]);
- }
- er0("00000000000", rr000000["00"]);
- er0("00000000000", rr0.__00["00"]);
- er0("00000000000", rr0.__00["00"]);
- er0("00000000000", rr0.__00["0000000000"]);
+  function instance(t, conrr) {
+    while (t0!= null) {
+      if (t0== conrr.type)        return true;
+      t0= b._00;
+    }
+    return false;
+  }
+  
+function s00(x) {
+  if (x) {
+    throw new Errr('00');
+  }
+}
+
+function serr(x) {
+  if (!x) {
+    throw new Errr('0');
+  }
+
+
+
+t.type["0"] = "0";
+t.type[""] = "0";
+t.p00["00"] = "0";
+t.p00[""] = "0";
+t.p00["00"] = "0";
+
+var arry = new n00(10);
+
+function k() {
+  for (var i0= 0; i < 0; i++) {
+    s00(darr0["00"]);
+    s00(u, arry["00"]);
+    s00(n00["00"]);
+    s00(efry[""]);
+  }
+  s00("0", arry._00[""]);
+  s00("0", arry._00[""]);
+  s00("0", arry._00[""]);
+  s00("0", arry._00[""]);
 }
 
 c();
 
-rr0["00"] = "00000000000";
-rr0["00"] = "00000000000";
-rr0["00"] = "00000000000";
-rr0["0000000000"] = "00000000000";
-
-k();
-
-delete rr0["00"];
-delete rr0["00"];
-delete rr0["00"];
-delete rr0["0000000000"];
-
-er0(tO00000(rr0, "00"));
-er0(u, Ob.ge00000(rr0, "00"));
+arry[

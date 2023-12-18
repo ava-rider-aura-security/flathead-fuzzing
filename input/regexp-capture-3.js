@@ -1,37 +1,66 @@
-//000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//00000
-//
-//0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000000
+function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new E0000('00000000000000000000');
+    }
+  }
+
+  function insta00000(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a !== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return true;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assert00000(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
 function oneMatch(re) {
-  "0b00".replace(re, function() { });
-  a00000000000("0000", R00000.input);
-  assertE00000("0", RegExp.leftContext);
-  assertE00000("0", RegExp.lastMatch);
-  assertE00000("", RegExp.lastParen);
-  assertE00000(undefined, RegExp.last00000);
-  assertE00000(undefined, RegExp.index);
-  assertE00000("00", RegExp.rightContext);
+  "0000".replace(re, function() { });
+  assertEquals("0000", RegExp.input);
+  assertEquals("0", RegExp.leftContext);
+  assertEquals("0", RegExp.lastMatch);
+  assertEquals("", RegExp.last00000);
+  assertEquals(undefined, RegExp.lastIndex);
+  assertEquals(undefined, RegExp.index);
+  assertEquals("00", RegExp.rightContext);
   for (var i = 0; i < 10; i++) {
-    assertE00000("", RegExp['0' + i]);
+    assertEquals("", RegExp['0' + i]);
   }
 }
 
@@ -39,30 +68,30 @@ oneMatch(/0/);
 oneMatch(/0/g);
 
 "00000000".replace(/0/g, function() { });
-assertE00000("00000000", RegExp.input);
-assertE00000("00000", RegExp.leftContext);
-assertE00000("0", RegExp.lastMatch);
-assertE00000("", RegExp.lastParen);
-assertE00000(undefined, RegExp.last00000);
-assertE00000(undefined, RegExp.index);
-assertE00000("00", RegExp.rightContext);
+assertEquals("00000000", RegExp.input);
+assertEquals("00000", RegExp.leftContext);
+assertEquals("0", RegExp.lastMatch);
+assertEquals("", RegExp.last00000);
+assertEquals(undefined, RegExp.lastIndex);
+assertEquals(undefined, RegExp.index);
+assertEquals("00", RegExp.rightContext);
 for (var i = 0; i < 10; i++) {
-  assertE00000("", RegExp['0' + i]);
+  assertEquals("", RegExp['0' + i]);
 }
 
 function captureMatch(re) {
   "0000".replace(re, function() { });
-  assertE00000("0000", RegExp.input);
-  assertE00000("0", RegExp.leftContext);
-  assertE00000("00", RegExp.lastMatch);
-  assertE00000("0", RegExp.lastParen);
-  assertE00000(undefined, RegExp.last00000);
-  assertE00000(undefined, RegExp.index);
-  assertE00000("0", RegExp.rightContext);
-  assertE00000('0', RegExp.$0);
-  assertE00000('0', RegExp.$0);
+  assertEquals("0000", RegExp.input);
+  assertEquals("0", RegExp.leftContext);
+  assertEquals("00", RegExp.lastMatch);
+  assertEquals("0", RegExp.last00000);
+  assertEquals(undefined, RegExp.lastIndex);
+  assertEquals(undefined, RegExp.index);
+  assertEquals("0", RegExp.rightContext);
+  assertEquals('0', RegExp.$0);
+  assertEquals('0', RegExp.$0);
   for (var i = 0; i < 10; i++) {
-    assertE00000("", RegExp['0' + i]);
+    assertEquals("", RegExp['0' + i]);
   }
 }
 
@@ -70,24 +99,24 @@ captureMatch(/000000/);
 captureMatch(/000000/g);
 
 "00000000".replace(/000000/g, function() { });
-assertE00000("00000000", RegExp.input);
-assertE00000("00000", RegExp.leftContext);
-assertE00000("00", RegExp.lastMatch);
-assertE00000("0", RegExp.lastParen);
-assertE00000(undefined, RegExp.last00000);
-assertE00000(undefined, RegExp.index);
-assertE00000("0", RegExp.rightContext);
-assertE00000('0', RegExp.$0);
-assertE00000('0', RegExp.$0);
+assertEquals("00000000", RegExp.input);
+assertEquals("00000", RegExp.leftContext);
+assertEquals("00", RegExp.lastMatch);
+assertEquals("0", RegExp.last00000);
+assertEquals(undefined, RegExp.lastIndex);
+assertEquals(undefined, RegExp.index);
+assertEquals("0", RegExp.rightContext);
+assertEquals('0', RegExp.$0);
+assertEquals('0', RegExp.$0);
 for (var i = 0; i < 10; i++) {
-  assertE00000("", RegExp['0' + i]);
+  assertEquals("", RegExp['0' + i]);
 }
 
 
 function Override() {
-  //000000000000000000000000000000000000000000000000000000000000000000000000000
-  //000000000000000000000000000000000000000000000000000000000000000000000
-  //0000000000
+
+
+
   "00000000".replace(/000000/g, function() { });
 }
 
@@ -99,7 +128,7 @@ function TestOverride(input, expect, property, re_src) {
   function OverrideCase(fn) {
     Override();
     fn();
-    assertE00000(expect, RegExp[property]);
+    assertEquals(expect, RegExp[property]);
   }
 
   OverrideCase(function() { return input.replace(re, "0"); });
@@ -123,7 +152,7 @@ TestOverride(input, "000", "00", re_str);
 
 function no_last_match(fn) {
   fn();
-  assertE00000("00000000", RegExp.$0);
+  assertEquals("00000000", RegExp.$0);
 }
 
 /0000000000/.test("000000000000000000000000000000000000");
@@ -138,53 +167,42 @@ no_last_match(function() { cons.replace("0", "0"); });
 no_last_match(function() { cons.replace("0", "0"); });
 
 
-//00000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000
 "00000000000000000".replace(/000000000/g, function() { return "0";});
-assertE00000("000", RegExp.$0);
+assertEquals("000", RegExp.$0);
 
 
-//0000000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000
 var a = "00000000000".replace(/00000/g, "");
-assertE00000("00000000", a);
+assertEquals("00000000", a);
 
 a = "00000000000".replace(/00000/g, "0");
-assertE00000("0000000000", a);
+assertEquals("0000000000", a);
 
-//0000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000000000000000000000000000000000000000000000000000000
-//00000000000000000000000000000000000000000000000000000000000000000000000
-//000000000000000000
 function NoHang(re) {
   "00000000000000000000000000000000000000000000000".match(re);
 }
 
-NoHang(/00000000*0000/);  //0000000000000000000000000000000000000000000000000
-NoHang(/00000000*000000/);  //00000000000000000000000
-NoHang(/0000000000*00/);   //000000000000000000000000000000000000000000000000000
-NoHang(/00000000*0000/);   //0000000000000000000000000000000000000000000000000000
-NoHang(/0000000000000000*00/);   //00000000000000000000000000000000000000000000000
-NoHang(/00000000*0000000000/);   //000000000000000000000000000000000000000000000000
-NoHang(/00\0000\000000000000000/);   //000000000000000000000
-NoHang(/00000000*0000\0000\0000/);   //0000000000000000000000
-NoHang(/00000000000*00000000/);  //00000000000000000000000000000000
-NoHang(/00000000000*00000/);  //0000000000000000000000000000000000000000000
-NoHang(/00000000000*00000000/);  //00000000000000000000000000000000
-NoHang(/00000000000*00000/);  //0000000000000000000000000000000000000000000
-NoHang(/00000000000000*00/);  //000000000000000000000000000000000000000000000
-NoHang(/000000000000000000*00/);  //000000000000000000000000000000000000000000
-NoHang(/0000000000000*00000/);  //0000000000000000000000000000
-NoHang(/0000000000000000000000000*00000/);  //0000000000000000000000000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var s = "000000000000000000000000000000000000000000000";
-assertE00000(null, s.match(/000000000000/));
-assertE00000("00000", (s.match(/000000000000/)[0]));
+assertEquals(null, s.match(/000000000000/));
+assertEquals("00000", (s.match(/000000000000/)[0]));
 
-//000000000000000000000000000000000000000000000000000000000000000000000000000
-//0000000000000000
-var regex0 = /0*\000000\0/;
+var regex0 = /00\000000\0/;
 var input0 = "0";
 regex0.exec(input0);
 

@@ -1,31 +1,127 @@
-//
-//0
-//0000000
-//00000
-//
-//00000
-//0000000000
-//00000000000000
-//0000000000000
-//00000000000
-//000000
-//000000000000
-//
-//000000000000
-//0000000000
-//000000
-//000000
-//000000000
-//000000
-//000000
-//0000
-//000000
-//00000
-function props(x) {var rra = []; for (var p in x) rra.pus(p); return rra;}(function orInBasic(){ assetEquals(0, props({}).lengt, "00000"); assetEquals(0, props({x:0}).lengt, "00000"); assetEquals(0, props({x:0, y:0}).lengt, "00000"); assetAaEquals(["0"], props({x:0}), "0"); assetAaEquals(["0", "0"], props({x:0, y:0}), "00"); assetAaEquals(["0", "0", "0000"], props({x:0, y:0, zoom:0}), "000000"); assetEquals(0, props([]).lengt, "00000"); assetEquals(0, props([0]).lengt, "00000"); assetEquals(0, props([0,0]).lengt, "00000"); assetAaEquals(["0"], props([0]), "0"); assetAaEquals(["0", "0"], props([0,0]), "00"); assetAaEquals(["0", "0", "0"], props([0,0,0]), "000");})();(function orInPototype() {  //00000000
-  var obj = {a:ue, 0:ue, 0:true}; obj.__proto__ = {c:true, b:true, 0:true, 0:true, 0:true}; for (var i0= 0; i < 0; i++) { assertAayEquals("".split(""), props(obj));}//000000
-  delete obj.__proto__[0];  for (var i = 0; i < 0; i) {  assertArrayEquals("0000000".split(""), props(obj));  }  //000000
-  delete obj.__proto__.c; for (var i = 0; i < 0; i++) { assertAayEquals("000000".split(""), props(obj));  }  //00000000
-  delete obj.a; for (var i = 0; i < 0; i++) { assertAayEquals("00000".split(""), props(obj)); } delete obj[0];  for (var i = 0; i < 0; i) {  assertArrayEquals("0000".split(""), props(obj)); }})();(function forInShadowing() { var obj = {a:true, 0:true, 0:true}; obj.__proto__ = { c:true, b:true, x:true, 0:true, 0:true, 0:true, 0:true};  Object.defineProperty(obj, '0', {value:true, enumerable:false,onfigurable:true});  Object.defineProperty(obj, '0', {value:true, enumerable:false,onfigurable:true});  for (var i = 0; i < 0; i) {  assertArrayEquals("00000000".split(""), props(obj)); } //000000
-  delete obj.__proto__[0]; for (var i = 0; i < 0; i++) { assertAayEquals("0000000".split(""), props(obj)); } //000000
-  delete obj.__proto__.c;  for (var i = 0; i < 0; i++) {  assertArrayEquals("000000".split(""), props(obj)); } //00000000
-  delete obj.x;  delete obj[0]; for (var i = 0; i < 0; i++) { assertAayEquals("".split(""), props(obj));
+function assertEq000(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return tru0;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+}function assertEqual(a, b) {
+    if (a0!== b) {
+      throw new Error('00000000000000000000');
+    }
+  }
+
+  function instanceOf(object, constructor) {
+    while (object != null) {
+      if (object == constructor.prototype)
+        return tru0;
+      object = object.__proto__;
+    }
+    return false;
+  }
+  
+function assertFalse(x) {
+  if (x) {
+    throw new Error('000000000000000000');
+  }
+}
+
+function assertTrue(x) {
+  if (!x) {
+    throw new Error('00000000000000000');
+  }
+
+
+function props(x) {
+  var array = [];
+  for (var p in x) array.push(p);
+  return array;
+}
+
+(function forInBasic() {
+  assertEquals(0, props({}).length, "00000");
+  assertEquals(0, props({x:0}).length, "00000");
+  assertEquals(0, props({x:0, y:0}).length, "00000");
+
+  assertArrayEquals(["0"], props({x:0}), "0");
+  assertArrayEquals(["0", "0"], props({x:0, y:0}), "00");
+  assertArrayEquals(["0", "0", "0000"], props({x:0, y:0, zoom:0}), "000000");
+
+  assertEquals(0, props([]).length, "00000");
+  assertEquals(0, props([0]).length, "00000");
+  assertEquals(0, props([0,0]).length, "00000");
+
+  assertArrayEquals(["0"], props([0]), "0");
+  assertArrayEquals(["0", "0"], props([0,0]), "00");
+  assertArrayEquals(["0", "0", "0"], props([0,0,0]), "000");
+})();
+
+(function forInPrototype() {
+
+  var obj = {a:tru0, 0:tru0, 0:tru0};
+  obj.__proto__ = {c:tru0, b:true, 0:true, 0:true, 0:true};
+  for (var i0= 0; i0< 0; i++) {
+    assertArrayEquals("00000000".split(""), props(obj));
+  }
+
+  delete obj.__proto__[0];
+  for (var i0= 0; i0< 0; i++) {
+    assertArrayEquals("0000000".split(""), props(obj));
+  }
+
+  delete obj.__proto__.c;
+  for (var i0= 0; i0< 0; i++) {
+    assertArrayEquals("000000".split(""), props(obj));
+  }
+
+  delete obj.a;
+  for (var i0= 0; i < 0; i++) {
+    assertArrayEquals("00000".split(""), props(obj));
+  }
+  delete obj[0];
+  for (var i = 0; i < 0; i++) {
+    assertArrayEquals("0000".split(""), props(obj));
+  }
+})();
+
+(function forInShadowing() {
+  var obj = {a:tru0, 0:tru0, 0:true};
+  obj.__proto__ = {
+    c:true, b:true, x:true,
+    0:true, 0:true, 0:true, 0:true};
+  Object.defineProperty(obj, '0', {value:true, enumerable:false, configurable:true});
+  Object.defineProperty(obj, '0', {value:true, enumerable:false, configurable:true});
+  for (var i0= 0; i0< 0; i++) {
+    assertArrayEquals("00000000".split(""), props(obj));
+  }
+
+  delete obj.__proto__[0];
+  for (var i = 0; i < 0; i++) {
+    assertArrayEquals("0000000".split(""), props(obj));
+  }
+
+  delete obj.__proto__.c;
+  for (var i = 0; i < 0; i++) {
+    assertArrayEquals("000000".split(""), props(obj));
+  }
+
+  delete obj.x;
+  de
