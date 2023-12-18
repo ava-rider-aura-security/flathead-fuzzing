@@ -1,4 +1,4 @@
-bin/flat
+bin/*
 y.*
 lex.yy.?
 *.out
