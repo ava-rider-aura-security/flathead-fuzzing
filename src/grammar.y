@@ -1226,6 +1226,7 @@ fh_eval_string(char *string, js_val *ctx)
 
 __AFL_FUZZ_INIT();
 
+#pragma clang optimize off
 int main(){
 
 #ifdef __AFL_HAVE_MANUAL_CONTROL
