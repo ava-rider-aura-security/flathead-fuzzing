@@ -6,3 +6,4 @@ tags
 *.o
 node_modules
 .flathead_history
+output/*
