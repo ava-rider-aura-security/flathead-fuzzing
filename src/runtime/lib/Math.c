@@ -163,7 +163,8 @@ math_pow(js_val *instance, js_args *args, eval_state *state)
 js_val *
 math_random(js_val *instance, js_args *args, eval_state *state)
 {
-  return JSNUM((double)rand() / RAND_MAX);
+  //Changed to return 4 for fuzzing
+  return JSNUM(4);
 }
 
 // Math.round(x)
